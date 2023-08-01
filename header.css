@@ -95,6 +95,10 @@ header#main-header.scrolled {
 }
 
 @media screen and (max-width: 768px) {
+  #logo img {
+    width: 275px;
+    height: fit-content !important;
+  }
   #menu {
     display: none;
   }
