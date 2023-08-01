@@ -427,7 +427,7 @@ p {
 
 @media (min-width: 768px) {
   .mobile {
-    display: none;
+    display: none !important;
   }
   .hero-speakers {
     margin-top: 5rem;
@@ -1177,7 +1177,7 @@ img.logo {
 /* Mobile styles */
 @media (max-width: 768px) {
   .desktop {
-    display: none;
+    display: none !important;
   }
   .box-agenda {
     flex-direction: column;
