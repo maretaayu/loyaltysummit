@@ -21,7 +21,6 @@ header#main-header.scrolled {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: inherit;
 }
 
 #logo {
@@ -98,8 +97,7 @@ header#main-header.scrolled {
 
 @media screen and (max-width: 768px) {
   #logo img {
-    width: 275px;
-    height: fit-content;
+    height: 40px;
   }
   #menu {
     display: none;
