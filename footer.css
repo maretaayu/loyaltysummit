@@ -1,0 +1,33 @@
+.footer {
+  background: var(--gradient-tada);
+  padding: 9rem 0 4rem;
+  margin-top: -90px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-logo img {
+  width: 350px;
+}
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer {
+    margin-top: -6.8rem !important;
+  }
+}
+
+ul {
+  list-style: none;
+}
+.footer a {
+  color: white;
+}
+.footer-item {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
