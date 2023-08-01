@@ -27,10 +27,6 @@ header#main-header.scrolled {
   margin-right: 20px;
 }
 
-#logo img {
-  height: 3rem;
-}
-
 #menu {
   display: flex;
 }
@@ -93,11 +89,16 @@ header#main-header.scrolled {
 .responsive-menu.active ul {
   max-height: 500px;
 }
+@media (min-width: 768px) {
+  #logo img {
+    height: 3rem;
+  }
+}
 
 @media screen and (max-width: 768px) {
   #logo img {
     width: 275px;
-    height: fit-content !important;
+    height: fit-content;
   }
   #menu {
     display: none;
