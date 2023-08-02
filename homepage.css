@@ -1182,9 +1182,6 @@ img.logo {
   .box-agenda {
     flex-direction: column;
   }
-  .insight-group {
-    margin: 0 -1rem;
-  }
   .agenda-time,
   .agenda-value {
     width: 100%;
