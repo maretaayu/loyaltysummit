@@ -426,6 +426,9 @@ p {
 }
 
 @media (min-width: 768px) {
+  .insight-group {
+    justify-content: center;
+  }
   .mobile {
     display: none !important;
   }
@@ -831,9 +834,6 @@ a {
   width: 150px;
   display: grid;
   gap: 4px;
-}
-.insight-group {
-  justify-content: center;
 }
 
 .bordered {
