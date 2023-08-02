@@ -111,7 +111,7 @@ const speakers = [
     position: "VP Marketing Tokopedia",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Antonius-Taufan.png",
+    img: "assets/images/AntoniusTaufan3.png",
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
@@ -126,7 +126,7 @@ const speakers = [
     position: "Founder Routetomarket.id",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo-1.png",
+    img: "assets/images/Yongki2.png",
     name: "Yongki Susilo",
     position: "Retail and Consumer Strategist ",
   },
@@ -151,7 +151,7 @@ const speakers = [
     position: "Director Operation PT. CRM Kalbe",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Niraj-Jain-1.png",
+    img: "assets/images/Niraj2.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
@@ -343,7 +343,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "13.00 - 13.45",
+    time: "13.00 - 13.30",
     value: `Panel 2: "Designing Effective Trade Promotions to Drive Sales and
       Increase Market Share"`,
     category: "agenda",
@@ -372,7 +372,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "13.50 - 14.35",
+    time: "13.35 - 14.05",
     value: `Panel 3: CFO Perspectives on Loyalty Program: Forging Strong Partnerships between Marketers and CFOs for Loyalty Program
       Success"`,
     category: "agenda",
@@ -401,7 +401,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.40 - 15.10",
+    time: "14.10 - 14.40",
     value: `Insight Story - FMCG Corner:
       "What Can Loyalty Learn from Morinaga Rewards Club Customer Experience?"`,
     category: "agenda",
@@ -417,7 +417,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "15.15 - 15.40",
+    time: "14.45 - 15.15",
     value: `Insight Story - Autoparts Corner:
       "Creating Loyalty through Influence: Exxon's Journey winning the Lubricants Oil Market"`,
     category: "agenda",
@@ -433,24 +433,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.45 - 15.15",
-    value: `Insight Story - Building Material Corner:
-      "Different Matters - How Depo Bangunan Redesigned their Loyalty
-      Program to Inspire and Influence Differential Engagement"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Aaron-Wijaya.png",
-        name: "Aaron Wijaya",
-        position: "CEO of Depo Bangunan Online Indonesia",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "15.15 - 15.30",
+    time: "15.20 - 15.35",
     value: "Coffee Break",
     category: "networking",
     speakers: [],
@@ -458,7 +441,24 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.45 - 15.15",
+    time: "15.40 - 16.10",
+    value: `Insight Story - Building Material Corner:
+      "Different Matters - How Depo Bangunan Redesigned their Loyalty
+      Program to Inspire and Influence Differential Engagement" *tbc`,
+    category: "agenda",
+    speakers: [
+      {
+        photo: "assets/icons/profile-user.svg",
+        name: "",
+        position: "*tbc",
+      },
+    ],
+    moderators: [],
+  },
+
+  {
+    tags: [],
+    time: "16.15 - 16.45",
     value: `Insight Story - Beauty & Pharmaceutical:
       "Erha Buddy: Boost Revenue with a Forward-Thinking Lens on
       Loyalty Strategy and Program ROI"`,
@@ -475,7 +475,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "16.15 - 17.00",
+    time: "16.50 - 17.20",
     value: `Closing Sessions - Fireside Chat:
       "Evolution of Loyalty Program Past and Present -- What are the leading innovations that will transform loyalty over the next 10 years"`,
     category: "agenda",
@@ -491,7 +491,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "17.00 - 17.10",
+    time: "17.25 - 17.30",
     value: "Closing by MC",
     speakers: [],
     moderators: [],

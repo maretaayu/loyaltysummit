@@ -1253,6 +1253,9 @@ img.logo {
   gap: 1rem;
   margin-top: 1rem;
 }
+.agenda-speaker-item {
+  align-items: center;
+}
 .agenda-speaker-item img {
   height: fit-content;
 }
