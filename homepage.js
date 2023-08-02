@@ -140,20 +140,30 @@ const speakers = [
   //   name: "Derrick Heng",
   //   position: "CMO Telkomsel",
   // },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Aaron-Wijaya-1.png",
+  //   name: "Aaron Wijaya",
+  //   position: "CEO of Depo Bangunan Online Indonesia",
+  // },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Aaron-Wijaya-1.png",
-    name: "Aaron Wijaya",
-    position: "CEO of Depo Bangunan Online Indonesia",
+    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
+    name: "Riri Amalas Yulia",
+    position: "Director Operation PT. CRM Kalbe",
   },
   {
     img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Niraj-Jain-1.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
+  //   name: "Riri Amalas Yulia",
+  //   position: "Director Operation PT. CRM Kalbe",
+  // },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
-    name: "Riri Amalas Yulia",
-    position: "Director Operation PT. CRM Kalbe",
+    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma-1.png",
+    name: "VP Sharma",
+    position: "CEO MAP",
   },
   {
     img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Melissa-Hendrawati-1.png",
