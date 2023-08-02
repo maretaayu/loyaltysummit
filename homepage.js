@@ -351,7 +351,7 @@ const agendaData = [
       {
         photo:
           "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
-        name: "Hilda Kitty",
+        name: "Hilda Kitti",
         position: "VP Marketing Tokopedia",
       },
       {
