@@ -56,6 +56,13 @@ p {
   width: 90%;
 }
 
+.highlight {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* Title classes */
 
 .title-bold-54 {
@@ -204,6 +211,9 @@ p {
 
 /* Mobile definitions */
 @media (max-width: 768px) {
+  .highlight img {
+    height: 42px;
+  }
   .contact {
     margin-top: -10rem !important;
   }
@@ -426,6 +436,9 @@ p {
 }
 
 @media (min-width: 768px) {
+  .hero-content {
+    padding: 11.5rem 0 10rem;
+  }
   .insight-group {
     justify-content: center;
   }
@@ -458,11 +471,7 @@ p {
     height: 220px !important;
     object-fit: contain;
   }
-  .hero-container {
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr;
-  }
+
   .hero-content {
     margin: auto 0;
   }
@@ -595,9 +604,10 @@ p {
 
 /* hero  */
 .hero {
-  background-image: url("https://loyaltyrewards-conference.com/wp-content/uploads/2023/08/HeroBackground-2-1.png");
+  background-image: url("assets/images/bg-hero-new-resized.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-speakers {
@@ -1228,6 +1238,8 @@ img.logo {
   display: flex;
   gap: 1rem;
   margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .info-item {
   border-radius: 8px;
@@ -1236,9 +1248,15 @@ img.logo {
     rgba(191, 219, 254, 0.2) 0%,
     rgba(191, 219, 254, 0) 100%
   );
-  /* blur */
   backdrop-filter: blur(5px);
   padding: 1.5rem;
+  text-align: left;
+  display: flex;
+  gap: 1rem;
+  min-width: 264px;
+}
+.info-item img {
+  height: fit-content;
 }
 .agenda-tags {
   color: var(--cta);
@@ -1255,4 +1273,8 @@ img.logo {
 }
 .agenda-speaker-item img {
   height: fit-content;
+}
+
+.hero-content {
+  text-align: center;
 }
