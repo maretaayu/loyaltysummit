@@ -111,7 +111,7 @@ const speakers = [
     position: "VP Marketing Tokopedia",
   },
   {
-    img: "assets/images/AntoniusTaufan3.png",
+    img: "https://loyaltysummit.id/assets/images/AntoniusTaufan3.png",
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
@@ -126,7 +126,7 @@ const speakers = [
     position: "Founder Routetomarket.id",
   },
   {
-    img: "assets/images/Yongki2.png",
+    img: "https://loyaltysummit.id/assets/images/Yongki2.png",
     name: "Yongki Susilo",
     position: "Retail and Consumer Strategist ",
   },
@@ -151,7 +151,7 @@ const speakers = [
     position: "Director Operation PT. CRM Kalbe",
   },
   {
-    img: "assets/images/Niraj2.png",
+    img: "https://loyaltysummit.id/assets/images/Niraj2.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
@@ -448,7 +448,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "assets/icons/profile-user.svg",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
         name: "",
         position: "*tbc",
       },
