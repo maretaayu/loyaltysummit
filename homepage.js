@@ -641,3 +641,8 @@ function getTextColorClass(category) {
 window.onload = function () {
   generateAgendaMarkup();
 };
+
+if (window.location.pathname.endsWith("/")) {
+  var newUrl = window.location.pathname.slice(0, -1);
+  window.history.replaceState({}, document.title, newUrl);
+}
