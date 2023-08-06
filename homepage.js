@@ -151,7 +151,7 @@ const speakers = [
     position: "Director Operation PT. CRM Kalbe",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Niraj-1.png",
+    img: "https://loyaltysummit.id/assets/images/Niraj-3.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
