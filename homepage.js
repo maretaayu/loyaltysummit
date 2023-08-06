@@ -111,7 +111,7 @@ const speakers = [
     position: "VP Marketing Tokopedia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/AntoniusTaufan3.png",
+    img: "https://loyaltysummit.id/assets/images/Antonius.png",
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
@@ -126,7 +126,7 @@ const speakers = [
     position: "Founder Routetomarket.id",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Yongki2.png",
+    img: "https://loyaltysummit.id/assets/images/Yongki.png",
     name: "Yongki Susilo",
     position: "Retail and Consumer Strategist ",
   },
@@ -151,7 +151,7 @@ const speakers = [
     position: "Director Operation PT. CRM Kalbe",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Niraj2.png",
+    img: "https://loyaltysummit.id/assets/images/Niraj.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
