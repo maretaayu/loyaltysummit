@@ -126,7 +126,7 @@ const speakers = [
     position: "Founder Routetomarket.id",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Yongki.png",
+    img: "https://loyaltysummit.id/assets/images/Yongki-1.png",
     name: "Yongki Susilo",
     position: "Retail and Consumer Strategist ",
   },
@@ -151,7 +151,7 @@ const speakers = [
     position: "Director Operation PT. CRM Kalbe",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Niraj.png",
+    img: "https://loyaltysummit.id/assets/images/Niraj-1.png",
     name: "Niraj Jain",
     position: "CFO Matahari Dept Store",
   },
