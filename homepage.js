@@ -384,8 +384,7 @@ const agendaData = [
         position: "CFO Matahari Dept Store",
       },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
         name: "Patra Azwar",
         position: "CFO PT. Goodyear Indonesia",
       },
