@@ -105,11 +105,11 @@ const speakers = [
     name: "Linda Valentin ",
     position: "Chief Commercial Officer - ALFAGIFT",
   },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti-1.png",
-    name: "Hilda Kitti",
-    position: "VP Marketing Tokopedia",
-  },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti-1.png",
+  //   name: "Hilda Kitti",
+  //   position: "VP Marketing Tokopedia",
+  // },
   {
     img: "https://loyaltysummit.id/assets/images/Antonius.png",
     name: "Antonius Taufan",
@@ -145,36 +145,36 @@ const speakers = [
   //   name: "Aaron Wijaya",
   //   position: "CEO of Depo Bangunan Online Indonesia",
   // },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
-    name: "Riri Amalas Yulia",
-    position: "Director Operation PT. CRM Kalbe",
-  },
-  {
-    img: "https://loyaltysummit.id/assets/images/Niraj-1.png",
-    name: "Niraj Jain",
-    position: "CFO Matahari Dept Store",
-  },
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
   //   name: "Riri Amalas Yulia",
   //   position: "Director Operation PT. CRM Kalbe",
   // },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma-1.png",
-    name: "VP Sharma",
-    position: "CEO MAP",
-  },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Melissa-Hendrawati-1.png",
-    name: "Melissa Hendrawati",
-    position: "CFO Superbank Indonesia",
-  },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi-1.png",
-    name: "Irinne Dwiyuliana Pratiwi",
-    position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
-  },
+  // {
+  //   img: "https://loyaltysummit.id/assets/images/Niraj-1.png",
+  //   name: "Niraj Jain",
+  //   position: "CFO Matahari Dept Store",
+  // },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
+  //   name: "Riri Amalas Yulia",
+  //   position: "Director Operation PT. CRM Kalbe",
+  // },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma-1.png",
+  //   name: "VP Sharma",
+  //   position: "CEO MAP",
+  // },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Melissa-Hendrawati-1.png",
+  //   name: "Melissa Hendrawati",
+  //   position: "CFO Superbank Indonesia",
+  // },
+  // {
+  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi-1.png",
+  //   name: "Irinne Dwiyuliana Pratiwi",
+  //   position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
+  // },
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Franz-Hermawan-1.png",
   //   name: "Franz Hermawan",
@@ -348,12 +348,12 @@ const agendaData = [
       Increase Market Share"`,
     category: "agenda",
     speakers: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
-        name: "Hilda Kitti",
-        position: "VP Marketing Tokopedia",
-      },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
+      //   name: "Hilda Kitti",
+      //   position: "VP Marketing Tokopedia",
+      // },
       {
         photo:
           "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Adrian-Baskoro.png",
@@ -405,11 +405,16 @@ const agendaData = [
       "What Can Loyalty Learn from Morinaga Rewards Club Customer Experience?"`,
     category: "agenda",
     speakers: [
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia.png",
+      //   name: "Riri Amalas Yulia",
+      //   position: "Director Operation PT. CRM Kalbe",
+      // },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia.png",
-        name: "Riri Amalas Yulia",
-        position: "Director Operation PT. CRM Kalbe",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "",
+        position: "*tbc",
       },
     ],
     moderators: [],
