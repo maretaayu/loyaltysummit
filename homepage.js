@@ -289,18 +289,18 @@ const agendaData = [
       Success"`,
     category: "agenda",
     speakers: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng.png",
-        name: "Derrick Heng",
-        position: "CMO Telkomsel",
-      },
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma.png",
-        name: "VP Sharma",
-        position: "CEO MAP",
-      },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng.png",
+      //   name: "Derrick Heng",
+      //   position: "CMO Telkomsel",
+      // },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma.png",
+      //   name: "VP Sharma",
+      //   position: "CEO MAP",
+      // },
       {
         photo:
           "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
@@ -374,19 +374,24 @@ const agendaData = [
     tags: [],
     time: "13.35 - 14.05",
     value: `Panel 3: CFO Perspectives on Loyalty Program: Forging Strong Partnerships between Marketers and CFOs for Loyalty Program
-      Success"`,
+      Success" *tbc`,
     category: "agenda",
     speakers: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Niraj-Jain.png",
-        name: "Niraj Jain",
-        position: "CFO Matahari Dept Store",
-      },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Niraj-Jain.png",
+      //   name: "Niraj Jain",
+      //   position: "CFO Matahari Dept Store",
+      // },
+      // {
+      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+      //   name: "Patra Azwar",
+      //   position: "CFO PT. Goodyear Indonesia",
+      // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Patra Azwar",
-        position: "CFO PT. Goodyear Indonesia",
+        name: "",
+        position: "*tbc",
       },
     ],
     moderators: [
@@ -402,7 +407,7 @@ const agendaData = [
     tags: [],
     time: "14.10 - 14.40",
     value: `Insight Story - FMCG Corner:
-      "What Can Loyalty Learn from Morinaga Rewards Club Customer Experience?"`,
+      "What Can Loyalty Learn from Morinaga Rewards Club Customer Experience?" *tbc`,
     category: "agenda",
     speakers: [
       // {
@@ -423,14 +428,19 @@ const agendaData = [
     tags: [],
     time: "14.45 - 15.15",
     value: `Insight Story - Autoparts Corner:
-      "Creating Loyalty through Influence: Exxon's Journey winning the Lubricants Oil Market"`,
+      "Creating Loyalty through Influence: Exxon's Journey winning the Lubricants Oil Market" *tbc`,
     category: "agenda",
     speakers: [
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Franz-Hermawan.png",
+      //   name: "Franz Hermawana",
+      //   position: "CM Business Development PT. EXXON Mobil Indonesia",
+      // },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Franz-Hermawan.png",
-        name: "Franz Hermawana",
-        position: "CM Business Development PT. EXXON Mobil Indonesia",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "",
+        position: "*tbc",
       },
     ],
     moderators: [],
@@ -465,14 +475,19 @@ const agendaData = [
     time: "16.15 - 16.45",
     value: `Insight Story - Beauty & Pharmaceutical:
       "Erha Buddy: Boost Revenue with a Forward-Thinking Lens on
-      Loyalty Strategy and Program ROI"`,
+      Loyalty Strategy and Program ROI" *tbc`,
     category: "agenda",
     speakers: [
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi.png",
+      //   name: "Irinne Dwiyuliana Pratiwi",
+      //   position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
+      // },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi.png",
-        name: "Irinne Dwiyuliana Pratiwi",
-        position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "",
+        position: "*tbc",
       },
     ],
     moderators: [],
