@@ -127,7 +127,7 @@ const speakers = [
   },
   {
     img: "https://loyaltysummit.id/assets/images/Yongki-1.png",
-    name: "Yongki Susilo",
+    name: "Yongky Susilo",
     position: "Retail and Consumer Strategist ",
   },
   {
