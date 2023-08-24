@@ -388,7 +388,7 @@ const agendaData = [
       //   position: "VP Marketing Tokopedia",
       // },
       {
-        photo: "hhttps://loyaltysummit.id/assets/images/Adrian.png",
+        photo: "https://loyaltysummit.id/assets/images/Adrian.png",
         name: "Adrian Baskoro",
         position: "Trade Marketing Expert & Founder Routetomarket.id",
       },

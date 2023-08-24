@@ -555,10 +555,10 @@ p {
   }
   #speakerGrid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     margin: 0 auto;
-    width: 58%;
+    width: 75%;
   }
   .d-grid-2 {
     display: grid;
