@@ -121,7 +121,7 @@ const speakers = [
     position: "Founder & CEO of LoyaltyHub",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Adrian-Baskoro-1.png",
+    img: "https://loyaltysummit.id/assets/images/additional/Adrian.png",
     name: "Adrian Baskoro",
     position: "Founder Routetomarket.id",
   },
@@ -135,16 +135,32 @@ const speakers = [
     name: "Mardiansyah Putra",
     position: "General Manager of Commercial Strategic Tada",
   },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Enjel.png",
+    name: "Enjelita Jahja ",
+    position: "Sr. Industry Lead Google Indonesia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Aaron.png",
+    name: "Aaron Wijaya",
+    position: "CEO of Depo Bangunan Online Indonesia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Ricky.png",
+    name: "Ricky Afrianto",
+    position: "Global Director PT. Mayora Indah Tbk",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Yopie.png",
+    name: "Ir. Yopie Rissa, M.M., MBA",
+    position: "Country Head B2B & OEM, BP Castrol",
+  },
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng-1.png",
   //   name: "Derrick Heng",
   //   position: "CMO Telkomsel",
   // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Aaron-Wijaya-1.png",
-  //   name: "Aaron Wijaya",
-  //   position: "CEO of Depo Bangunan Online Indonesia",
-  // },
+
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
   //   name: "Riri Amalas Yulia",
@@ -206,7 +222,7 @@ const agendaData = [
   {
     tags: [],
     time: "08.30 - 09.30",
-    value: "Registration, Guided networking session",
+    value: "Registration - networking session - Coffee Break",
     category: "agenda",
     speakers: [],
     moderators: [],
@@ -236,25 +252,8 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "09.45 - 10.15",
-    value: `Keynote Speech: "Change Transactional Relationships into
-      Profitable Partnerships"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
-        name: "Shalini Gopalan",
-        position: "Founder & CEO of LoyaltyHub",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "10.15 - 10.45",
-    value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade
-      New Consumerism (Bright Outlook)"`,
+    time: "09.50 - 10.10",
+    value: `Keynote Speech: “The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)”`,
     category: "agenda",
     speakers: [
       {
@@ -263,44 +262,79 @@ const agendaData = [
         name: "Yongky Susilo",
         position: "Retail and Consumer Strategist ",
       },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
+      //   name: "Shalini Gopalan",
+      //   position: "Founder & CEO of LoyaltyHub",
+      // },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "10.45 - 11.15",
-    value: `Keynote Speech: "How to Monitoring the Channel Activation and
-      Growing the Right Channel"`,
+    time: "10.15 - 10.35",
+    value: `Keynote Speech: Digital Media Landscape by Google`,
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Adrian-Baskoro.png",
-        name: "Adrian Baskoro",
-        position: "Founder Routetomarket.id",
+        photo: "https://loyaltysummit.id/assets/images/Enjel.png",
+        name: "Enjelita Jahja",
+        position: "Senior Industry Lead - Google",
       },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "11.15 - 12.00",
-    value: `Panel 1: "Loyalty that Lasts: Setting Up Your Loyalty Program for
-      Success"`,
+    time: "10.40 - 10.55",
+    value: `Insight Story - FMCG Corner: “The Future of FMCG: How to create brand loyalty?”`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng.png",
-      //   name: "Derrick Heng",
-      //   position: "CMO Telkomsel",
-      // },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Ricky.png",
+        name: "Ricky Afrianto",
+        position: "Director and Global Marketing PT. Mayora Indah, Tbk",
+      },
+    ],
+    moderators: [],
+  },
+  {
+    tags: [],
+    time: "11.00 - 11.15",
+    value: `Insight Story by MAPClub`,
+    category: "agenda",
+    speakers: [
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Ravi Kumar",
+        position: "COO PT.Mitra Adi Perkasa, Tbk - MAP",
+      },
       // {
       //   photo:
       //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma.png",
       //   name: "VP Sharma",
       //   position: "CEO MAP",
       // },
+    ],
+    moderators: [],
+  },
+  {
+    tags: [],
+    time: "11.20 - 11.55",
+    value: `Panel 1: “The Retention Revolution: Innovations in Keeping Your Customers Coming Back”`,
+    category: "agenda",
+    speakers: [
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Lilis Mulyawati",
+        position: "President Director Watsons Indonesia",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Ravi Kumar",
+        position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
+      },
       {
         photo:
           "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
@@ -343,9 +377,8 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "13.00 - 13.30",
-    value: `Panel 2: "Designing Effective Trade Promotions to Drive Sales and
-      Increase Market Share"`,
+    time: "13.05 - 13.30",
+    value: `Keynote Speech: "How to Monitoring the Channel Activation and Growing the Right Channel"`,
     category: "agenda",
     speakers: [
       // {
@@ -355,26 +388,17 @@ const agendaData = [
       //   position: "VP Marketing Tokopedia",
       // },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Adrian-Baskoro.png",
+        photo: "hhttps://loyaltysummit.id/assets/images/Adrian.png",
         name: "Adrian Baskoro",
-        position: "Founder Routetomarket.id",
+        position: "Trade Marketing Expert & Founder Routetomarket.id",
       },
     ],
-    moderators: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra.png",
-        name: "Mardiansyah Putra",
-        position: "General Manager of Commercial Strategic Tada",
-      },
-    ],
+    moderators: [],
   },
   {
     tags: [],
-    time: "13.35 - 14.05",
-    value: `Panel 3: CFO Perspectives on Loyalty Program: Forging Strong Partnerships between Marketers and CFOs for Loyalty Program
-      Success" *tbc`,
+    time: "13.35 - 13.55",
+    value: `Keynote Speech: "The importance of retaining B2B partner to boost sales"`,
     category: "agenda",
     speakers: [
       // {
@@ -389,25 +413,24 @@ const agendaData = [
       //   position: "CFO PT. Goodyear Indonesia",
       // },
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "",
-        position: "*tbc",
+        photo: "https://loyaltysummit.id/assets/images/Yopie.png",
+        name: "Yopie Rissa",
+        position: "Country Head B2B & OEM PT. Castrol Indonesia",
       },
     ],
     moderators: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
-        name: "Antonius Taufan",
-        position: "Founder & Managing Director Tada",
-      },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
+      //   name: "Antonius Taufan",
+      //   position: "Founder & Managing Director Tada",
+      // },
     ],
   },
   {
     tags: [],
-    time: "14.10 - 14.40",
-    value: `Insight Story - FMCG Corner:
-      "What Can Loyalty Learn from Morinaga Rewards Club Customer Experience?" *tbc`,
+    time: "14.00 - 14.15",
+    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program”`,
     category: "agenda",
     speakers: [
       // {
@@ -418,17 +441,27 @@ const agendaData = [
       // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "",
-        position: "*tbc",
+        name: "Wimam Limandibrata",
+        position: "RTM Strategy and BizDev Director at Danone",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Aaron.png",
+        name: "Aaron Wijaya",
+        position: "CEO of Depo Bangunan Online Indonesia",
       },
     ],
-    moderators: [],
+    moderators: [
+      {
+        photo: "https://loyaltysummit.id/assets/images/Adrian.png",
+        name: "Adrian Baskoro",
+        position: "Trade Marketing Expert & Founder Routetomarket.id",
+      },
+    ],
   },
   {
     tags: [],
-    time: "14.45 - 15.15",
-    value: `Insight Story - Autoparts Corner:
-      "Creating Loyalty through Influence: Exxon's Journey winning the Lubricants Oil Market" *tbc`,
+    time: "14.20 - 14.35",
+    value: `GRAB`,
     category: "agenda",
     speakers: [
       // {
@@ -439,15 +472,15 @@ const agendaData = [
       // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "",
-        position: "*tbc",
+        name: "Pramita Hadi",
+        position: "Head of GTM, Product, and Operation at Grab for Business",
       },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "15.20 - 15.35",
+    time: "14.40 - 14.55",
     value: "Coffee Break",
     category: "networking",
     speakers: [],
@@ -455,46 +488,40 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "15.40 - 16.10",
-    value: `Insight Story - Building Material Corner:
-      "Different Matters - How Depo Bangunan Redesigned their Loyalty
-      Program to Inspire and Influence Differential Engagement" *tbc`,
+    time: "15.00 - 15.40",
+    value: `Panel 3: “Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention”`,
     category: "agenda",
     speakers: [
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "",
-        position: "*tbc",
+        name: "Mikiko Steven",
+        position: "Managing Director of Xendit",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Tammy Tanumiharja",
+        position: "Business Development Director of Bakmi GM",
+      },
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
+        name: "Hilda Kitti",
+        position: "VP Marketing Tokopedia",
       },
     ],
-    moderators: [],
+    moderators: [
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra.png",
+        name: "Mardiansyah Putra",
+        position: "General Manager of Commercial Strategic Tada",
+      },
+    ],
   },
 
   {
     tags: [],
-    time: "16.15 - 16.45",
-    value: `Insight Story - Beauty & Pharmaceutical:
-      "Erha Buddy: Boost Revenue with a Forward-Thinking Lens on
-      Loyalty Strategy and Program ROI" *tbc`,
-    category: "agenda",
-    speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi.png",
-      //   name: "Irinne Dwiyuliana Pratiwi",
-      //   position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
-      // },
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "",
-        position: "*tbc",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "16.50 - 17.20",
+    time: "15.45 - 16.15",
     value: `Closing Sessions - Fireside Chat:
       "Evolution of Loyalty Program Past and Present -- What are the leading innovations that will transform loyalty over the next 10 years"`,
     category: "agenda",
@@ -510,7 +537,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "17.25 - 17.30",
+    time: "16.20 - 16.25",
     value: "Closing by MC",
     speakers: [],
     moderators: [],
