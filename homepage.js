@@ -288,7 +288,7 @@ const agendaData = [
   {
     tags: [],
     time: "10.40 - 10.55",
-    value: `Insight Story - FMCG Corner: “The Future of FMCG: How to create brand loyalty?”`,
+    value: `Insight Story - FMCG Corner: "The Future of FMCG: How to create brand loyalty?"`,
     category: "agenda",
     speakers: [
       {
@@ -322,7 +322,7 @@ const agendaData = [
   {
     tags: [],
     time: "11.20 - 11.55",
-    value: `Panel 1: “The Retention Revolution: Innovations in Keeping Your Customers Coming Back”`,
+    value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
     category: "agenda",
     speakers: [
       {
@@ -441,8 +441,8 @@ const agendaData = [
       // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Wimam Limandibrata",
-        position: "RTM Strategy and BizDev Director at Danone",
+        name: "*tbc",
+        position: "*tbc",
       },
       {
         photo: "https://loyaltysummit.id/assets/images/Aaron.png",
@@ -461,7 +461,7 @@ const agendaData = [
   {
     tags: [],
     time: "14.20 - 14.35",
-    value: `GRAB`,
+    value: `*tbc`,
     category: "agenda",
     speakers: [
       // {
@@ -472,8 +472,8 @@ const agendaData = [
       // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Pramita Hadi",
-        position: "Head of GTM, Product, and Operation at Grab for Business",
+        name: "*tbc",
+        position: "*tbc",
       },
     ],
     moderators: [],
@@ -489,24 +489,23 @@ const agendaData = [
   {
     tags: [],
     time: "15.00 - 15.40",
-    value: `Panel 3: “Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention”`,
+    value: `Panel 3: "Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention"`,
     category: "agenda",
     speakers: [
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Mikiko Steven",
-        position: "Managing Director of Xendit",
+        name: "*tbc",
+        position: "*tbc",
       },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Tammy Tanumiharja",
-        position: "Business Development Director of Bakmi GM",
+        name: "*tbc",
+        position: "*tbc",
       },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
-        name: "Hilda Kitti",
-        position: "VP Marketing Tokopedia",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "*tbc",
+        position: "*tbc",
       },
     ],
     moderators: [
