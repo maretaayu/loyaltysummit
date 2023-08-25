@@ -101,9 +101,44 @@ endlessScroll("carousel2", -0.5);
 // speakers
 const speakers = [
   {
+    img: "https://loyaltysummit.id/assets/images/additional/Ricky.png",
+    name: "Ricky Afrianto",
+    position: "Global Director PT. Mayora Indah Tbk",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Enjel.png",
+    name: "Enjelita Jahja ",
+    position: "Sr. Industry Lead Google Indonesia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Ravi-Khumar.png",
+    name: "Ravi Kumar",
+    position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
+  },
+  {
     img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin-1.png",
     name: "Linda Valentin ",
     position: "Chief Commercial Officer - ALFAGIFT",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Yopie.png",
+    name: "Ir. Yopie Rissa, M.M., MBA",
+    position: "Country Head B2B & OEM, BP Castrol",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Adrian.png",
+    name: "Adrian Baskoro",
+    position: "Founder Routetomarket.id",
+  },
+  {
+    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan-1.png",
+    name: "Shalini Gopalan",
+    position: "Founder & CEO of LoyaltyHub",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/Yongki-1.png",
+    name: "Yongky Susilo",
+    position: "Retail and Consumer Strategist ",
   },
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti-1.png",
@@ -115,46 +150,19 @@ const speakers = [
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan-1.png",
-    name: "Shalini Gopalan",
-    position: "Founder & CEO of LoyaltyHub",
-  },
-  {
-    img: "https://loyaltysummit.id/assets/images/additional/Adrian.png",
-    name: "Adrian Baskoro",
-    position: "Founder Routetomarket.id",
-  },
-  {
-    img: "https://loyaltysummit.id/assets/images/Yongki-1.png",
-    name: "Yongky Susilo",
-    position: "Retail and Consumer Strategist ",
-  },
-  {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra-1.png",
-    name: "Mardiansyah Putra",
-    position: "General Manager of Commercial Strategic Tada",
-  },
-  {
-    img: "https://loyaltysummit.id/assets/images/additional/Enjel.png",
-    name: "Enjelita Jahja ",
-    position: "Sr. Industry Lead Google Indonesia",
-  },
+
   {
     img: "https://loyaltysummit.id/assets/images/additional/Aaron.png",
     name: "Aaron Wijaya",
     position: "CEO of Depo Bangunan Online Indonesia",
   },
+
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Ricky.png",
-    name: "Ricky Afrianto",
-    position: "Global Director PT. Mayora Indah Tbk",
+    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra-1.png",
+    name: "Mardiansyah Putra",
+    position: "General Manager of Commercial Strategic Tada",
   },
-  {
-    img: "https://loyaltysummit.id/assets/images/additional/Yopie.png",
-    name: "Ir. Yopie Rissa, M.M., MBA",
-    position: "Country Head B2B & OEM, BP Castrol",
-  },
+
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng-1.png",
   //   name: "Derrick Heng",
@@ -306,7 +314,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        photo: "https://loyaltysummit.id/assets/images/Ravi.png",
         name: "Ravi Kumar",
         position: "COO PT.Mitra Adi Perkasa, Tbk - MAP",
       },
@@ -327,8 +335,8 @@ const agendaData = [
     speakers: [
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "Lilis Mulyawati",
-        position: "President Director Watsons Indonesia",
+        name: "*tbc",
+        position: "*tbc",
       },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
