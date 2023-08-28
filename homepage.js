@@ -252,7 +252,7 @@ const agendaData = [
       {
         photo:
           "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
-        name: "Antonius Taufan & Ketua Umum Association",
+        name: "Antonius Taufan",
         position: "Founder & Managing Director Tada",
       },
     ],
