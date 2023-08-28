@@ -261,7 +261,7 @@ const agendaData = [
   {
     tags: [],
     time: "09.50 - 10.10",
-    value: `Keynote Speech: “The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)”`,
+    value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)"`,
     category: "agenda",
     speakers: [
       {
@@ -438,7 +438,7 @@ const agendaData = [
   {
     tags: [],
     time: "14.00 - 14.15",
-    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program”`,
+    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program"`,
     category: "agenda",
     speakers: [
       // {
