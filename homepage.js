@@ -333,22 +333,27 @@ const agendaData = [
     value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
     category: "agenda",
     speakers: [
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
+      // {
+      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+      //   name: "*tbc",
+      //   position: "*tbc",
+      // },
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
         name: "Ravi Kumar",
         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
-        name: "Linda Valentine",
-        position: "CCO Alfagift",
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Ruchir Prasoon",
+        position: "Vice President of Product Tokopedia",
       },
+      // {
+      //   photo:
+      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
+      //   name: "Linda Valentine",
+      //   position: "CCO Alfagift",
+      // },
     ],
     moderators: [
       {
@@ -385,7 +390,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "13.05 - 13.30",
+    time: "13.05 - 13.25",
     value: `Keynote Speech: "How to Monitoring the Channel Activation and Growing the Right Channel"`,
     category: "agenda",
     speakers: [
@@ -405,7 +410,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "13.35 - 13.55",
+    time: "13.25 - 13.45",
     value: `Keynote Speech: "The importance of retaining B2B partner to boost sales"`,
     category: "agenda",
     speakers: [
@@ -437,25 +442,34 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.00 - 14.15",
-    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program"`,
+    time: "13.45 - 14.05",
+    value: `Insight Story: "Empower Building Material Retailers & Distributors through the Use of Technology"`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia.png",
-      //   name: "Riri Amalas Yulia",
-      //   position: "Director Operation PT. CRM Kalbe",
-      // },
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
       {
         photo: "https://loyaltysummit.id/assets/images/Aaron.png",
         name: "Aaron Wijaya",
         position: "CEO of Depo Bangunan Online Indonesia",
+      },
+    ],
+  },
+  {
+    tags: [],
+    time: "14.10 - 14.45",
+    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program"`,
+    category: "agenda",
+    speakers: [
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
+        name: "Linda Valentine",
+        position: "CCO Alfagift",
+      },
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
       },
     ],
     moderators: [
@@ -468,8 +482,8 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.20 - 14.35",
-    value: `*tbc`,
+    time: "14.45 - 15.05",
+    value: `Insight Story`,
     category: "agenda",
     speakers: [
       // {
@@ -478,57 +492,58 @@ const agendaData = [
       //   name: "Franz Hermawana",
       //   position: "CM Business Development PT. EXXON Mobil Indonesia",
       // },
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
+      // {
+      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+      //   name: "*tbc",
+      //   position: "*tbc",
+      // },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "14.40 - 14.55",
+    time: "15.05 - 15.15",
     value: "Coffee Break",
     category: "networking",
     speakers: [],
     moderators: [],
   },
-  {
-    tags: [],
-    time: "15.00 - 15.40",
-    value: `Panel 3: "Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
-      {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-        name: "*tbc",
-        position: "*tbc",
-      },
-    ],
-    moderators: [
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra.png",
-        name: "Mardiansyah Putra",
-        position: "General Manager of Commercial Strategic Tada",
-      },
-    ],
-  },
+  // blue
+  // {
+  //   tags: [],
+  //   time: "15.15 - 15.45",
+  //   value: `Panel 3: "Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention"`,
+  //   category: "agenda",
+  //   speakers: [
+  //     {
+  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+  //       name: "*tbc",
+  //       position: "*tbc",
+  //     },
+  //     {
+  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+  //       name: "*tbc",
+  //       position: "*tbc",
+  //     },
+  //     {
+  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+  //       name: "*tbc",
+  //       position: "*tbc",
+  //     },
+  //   ],
+  //   moderators: [
+  //     {
+  //       photo:
+  //         "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra.png",
+  //       name: "Mardiansyah Putra",
+  //       position: "General Manager of Commercial Strategic Tada",
+  //     },
+  //   ],
+  // },
 
   {
     tags: [],
-    time: "15.45 - 16.15",
+    time: "15.50 - 16.20",
     value: `Closing Sessions - Fireside Chat:
       "Evolution of Loyalty Program Past and Present -- What are the leading innovations that will transform loyalty over the next 10 years"`,
     category: "agenda",
