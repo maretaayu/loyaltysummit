@@ -339,7 +339,7 @@ const agendaData = [
       //   position: "*tbc",
       // },
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        photo: "https://loyaltysummit.id/assets/images/Ravi.png",
         name: "Ravi Kumar",
         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
