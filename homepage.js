@@ -414,31 +414,13 @@ const agendaData = [
     value: `Keynote Speech: "The importance of retaining B2B partner to boost sales"`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Niraj-Jain.png",
-      //   name: "Niraj Jain",
-      //   position: "CFO Matahari Dept Store",
-      // },
-      // {
-      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-      //   name: "Patra Azwar",
-      //   position: "CFO PT. Goodyear Indonesia",
-      // },
       {
         photo: "https://loyaltysummit.id/assets/images/Yopie.png",
         name: "Yopie Rissa",
         position: "Country Head B2B & OEM PT. Castrol Indonesia",
       },
     ],
-    moderators: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
-      //   name: "Antonius Taufan",
-      //   position: "Founder & Managing Director Tada",
-      // },
-    ],
+    moderators: [],
   },
   {
     tags: [],
@@ -452,6 +434,7 @@ const agendaData = [
         position: "CEO of Depo Bangunan Online Indonesia",
       },
     ],
+    moderators: [],
   },
   {
     tags: [],
@@ -508,39 +491,6 @@ const agendaData = [
     speakers: [],
     moderators: [],
   },
-  // blue
-  // {
-  //   tags: [],
-  //   time: "15.15 - 15.45",
-  //   value: `Panel 3: "Customer Centricity in the Digital Age: Navigating the Landscape of Omnichannel Customer Retention"`,
-  //   category: "agenda",
-  //   speakers: [
-  //     {
-  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-  //       name: "*tbc",
-  //       position: "*tbc",
-  //     },
-  //     {
-  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-  //       name: "*tbc",
-  //       position: "*tbc",
-  //     },
-  //     {
-  //       photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-  //       name: "*tbc",
-  //       position: "*tbc",
-  //     },
-  //   ],
-  //   moderators: [
-  //     {
-  //       photo:
-  //         "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra.png",
-  //       name: "Mardiansyah Putra",
-  //       position: "General Manager of Commercial Strategic Tada",
-  //     },
-  //   ],
-  // },
-
   {
     tags: [],
     time: "15.50 - 16.20",
