@@ -327,7 +327,7 @@ const agendaData = [
       {
         photo: "https://loyaltysummit.id/assets/images/Ravi.png",
         name: "Ravi Kumar",
-        position: "COO PT.Mitra Adi Perkasa, Tbk - MAP",
+        position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
       // {
       //   photo:
