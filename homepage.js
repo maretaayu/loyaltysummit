@@ -162,6 +162,17 @@ const speakers = [
     name: "Mardiansyah Putra",
     position: "General Manager of Commercial Strategic Tada",
   },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/RuchirPrasoon.png",
+    name: "Ruchir Prasoon",
+    position: "Vice President of Product Tokopedia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/PramitaHadi.png",
+    name: "Pramita Hadi",
+    position:
+      "Head of Go-To-Market, Product, Data and Operation GrabForBusiness",
+  },
 
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng-1.png",
@@ -344,7 +355,7 @@ const agendaData = [
         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        photo: "https://loyaltysummit.id/assets/images/additional/Ruchir.png",
         name: "Ruchir Prasoon",
         position: "Vice President of Product Tokopedia",
       },
