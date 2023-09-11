@@ -505,7 +505,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/additional/Pramita.png",
+        photo: "https://loyaltysummit.id/assets/images/Pramita.png",
         name: "Pramita Hadi",
         position: "Head of GTM, Product, and Operation at Grab for Business",
       },
