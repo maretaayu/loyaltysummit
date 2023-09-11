@@ -505,8 +505,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltysummit.id/assets/images/additional/PramitaHadi2.png",
+        photo: "https://loyaltysummit.id/assets/images/additional/Pramita.png",
         name: "Pramita Hadi",
         position: "Head of GTM, Product, and Operation at Grab for Business",
       },
@@ -531,12 +530,12 @@ const agendaData = [
         position: "General Manager of Commercial Strategic Tada",
       },
       {
-        img: "https://loyaltysummit.id/assets/images/Mark.png",
+        photo: "https://loyaltysummit.id/assets/images/Mark.png",
         name: "Mark Gabriel Priyono",
         position: "CEO Prieds",
       },
       {
-        img: "https://loyaltysummit.id/assets/images/Bonifasius.png",
+        photo: "https://loyaltysummit.id/assets/images/Bonifasius.png",
         name: "Bonifasius Victoria",
         position: "CEO Sanco Indonesia",
       },
