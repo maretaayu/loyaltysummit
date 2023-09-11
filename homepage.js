@@ -168,10 +168,39 @@ const speakers = [
     position: "Vice President of Product Tokopedia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/PramitaHadi.png",
+    img: "https://loyaltysummit.id/assets/images/additional/PramitaHadi2.png",
     name: "Pramita Hadi",
-    position:
-      "Head of Go-To-Market, Product, Data and Operation GrabForBusiness",
+    position: "Head of GTM, Product, and Operation at Grab for Business",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Muliadi.png",
+    name: "Muliadi Jeo",
+    position: "CTO of Enterprise Solutions Sirclo",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Andy.png",
+    name: "Andy Gozali",
+    position: "Country Head - RevComm Indonesia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Meshvara.png",
+    name: "Meshvara Kanjaya",
+    position: "Former CEO Ranch Market",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Laode.png",
+    name: "Laode Hartanto",
+    position: "Chief Growth Officer Dentsu Indonesia",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Mark.png",
+    name: "Mark Gabriel Priyono",
+    position: "CEO Prieds",
+  },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Bonifasius.png",
+    name: "Bonifasius Victoria",
+    position: "CEO Sanco Indonesia",
   },
 
   // {
@@ -271,16 +300,16 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "09.50 - 10.10",
-    value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)"`,
+    time: "09.45 - 10.05",
+    value: `Keynote Speech: Navigating the Digital Media Landscape: The Paradigm Shift Era"`,
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
+        photo: "https://loyaltysummit.id/assets/images/Enjel.png",
+        name: "Enjelita Jahja",
+        position: "Senior Industry Lead - Google",
       },
+
       // {
       //   photo:
       //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
@@ -292,21 +321,22 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "10.15 - 10.35",
-    value: `Keynote Speech: Digital Media Landscape by Google`,
+    time: "10.05 - 10.25",
+    value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)"`,
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Enjel.png",
-        name: "Enjelita Jahja",
-        position: "Senior Industry Lead - Google",
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
       },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "10.40 - 10.55",
+    time: "10.25 - 10.45",
     value: `Insight Story - FMCG Corner: "The Future of FMCG: How to create brand loyalty?"`,
     category: "agenda",
     speakers: [
@@ -320,7 +350,22 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "11.00 - 11.15",
+    time: "10.45 - 11.05",
+    value: `Keynote Speech: Loyalty Programs Don't Equate to Loyalty`,
+    category: "agenda",
+    speakers: [
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
+        name: "Shalini Gopalan",
+        position: "Founder of LoyaltyHub",
+      },
+    ],
+    moderators: [],
+  },
+  {
+    tags: [],
+    time: "11.05 - 11.25",
     value: `Insight Story by MAPClub`,
     category: "agenda",
     speakers: [
@@ -340,7 +385,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "11.20 - 11.55",
+    time: "11.25 - 12.00",
     value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
     category: "agenda",
     speakers: [
@@ -349,29 +394,35 @@ const agendaData = [
       //   name: "*tbc",
       //   position: "*tbc",
       // },
-      {
-        photo: "https://loyaltysummit.id/assets/images/Ravi.png",
-        name: "Ravi Kumar",
-        position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
-      },
-      {
-        photo: "https://loyaltysummit.id/assets/images/additional/Ruchir.png",
-        name: "Ruchir Prasoon",
-        position: "Vice President of Product Tokopedia",
-      },
       // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
-      //   name: "Linda Valentine",
-      //   position: "CCO Alfagift",
+      //   photo: "https://loyaltysummit.id/assets/images/Ravi.png",
+      //   name: "Ravi Kumar",
+      //   position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       // },
+
+      {
+        photo:
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
+        name: "Linda Valentine",
+        position: "CCO Alfagift",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Meshvara.png",
+        name: "Meshvara Kanjaya",
+        position: "Former CEO of Ranch Market",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Andiny Kismaryanti",
+        position: "Shopper Marketing PT. Paragon Technology & Innovations",
+      },
     ],
     moderators: [
       {
         photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
-        name: "Shalini Gopalan",
-        position: "Founder & CEO of LoyaltyHub",
+          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
       },
     ],
   },
@@ -449,35 +500,23 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "14.10 - 14.45",
-    value: `Panel 2: "Partner collaboration: strengthening sales channels for mutual growth through loyalty and rewards program"`,
+    time: "14.05 - 14.25",
+    value: `Insight Story by Grab "Elevate the gifting experience with GrabGifts"`,
     category: "agenda",
     speakers: [
       {
         photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
-        name: "Linda Valentine",
-        position: "CCO Alfagift",
-      },
-      {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
+          "https://loyaltysummit.id/assets/images/additional/PramitaHadi2.png",
+        name: "Pramita Hadi",
+        position: "Head of GTM, Product, and Operation at Grab for Business",
       },
     ],
-    moderators: [
-      {
-        photo: "https://loyaltysummit.id/assets/images/Adrian.png",
-        name: "Adrian Baskoro",
-        position: "Trade Marketing Expert & Founder Routetomarket.id",
-      },
-    ],
+    moderators: [],
   },
   {
     tags: [],
-    time: "14.45 - 15.05",
-    value: `Insight Story`,
+    time: "14.25 - 15.00",
+    value: `Product Showcase: "Track, Trace, and Retain"`,
     category: "agenda",
     speakers: [
       // {
@@ -486,17 +525,27 @@ const agendaData = [
       //   name: "Franz Hermawana",
       //   position: "CM Business Development PT. EXXON Mobil Indonesia",
       // },
-      // {
-      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
-      //   name: "*tbc",
-      //   position: "*tbc",
-      // },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Mardiansyah.png",
+        name: "Mardiansyah Putra",
+        position: "General Manager of Commercial Strategic Tada",
+      },
+      {
+        img: "https://loyaltysummit.id/assets/images/Mark.png",
+        name: "Mark Gabriel Priyono",
+        position: "CEO Prieds",
+      },
+      {
+        img: "https://loyaltysummit.id/assets/images/Bonifasius.png",
+        name: "Bonifasius Victoria",
+        position: "CEO Sanco Indonesia",
+      },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "15.05 - 15.15",
+    time: "15.00 - 15.15",
     value: "Coffee Break",
     category: "networking",
     speakers: [],
@@ -504,23 +553,72 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "15.50 - 16.20",
-    value: `Closing Sessions - Fireside Chat:
-      "Evolution of Loyalty Program Past and Present -- What are the leading innovations that will transform loyalty over the next 10 years"`,
+    time: "15.15 - 15.35",
+    value: `Keynote Speech: Building Customer Loyalty by Knowing Your Customer`,
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
-        name: "Antonius Taufan",
-        position: "Founder & Managing Director Tada",
+        photo: "https://loyaltysummit.id/assets/images/Muliadi.png",
+        name: "Muliadi Jeo",
+        position: "CTO of Enterprise Solutions - SIRCLO",
       },
     ],
     moderators: [],
   },
   {
     tags: [],
-    time: "16.20 - 16.25",
+    time: "15.35 - 16.05",
+    value: `Panel Discussion: "Customer Centricity in the Digital Age: Navigating the Landscape of Customer Retention"`,
+    category: "agenda",
+    speakers: [
+      {
+        photo: "https://loyaltysummit.id/assets/images/additional/Ruchir.png",
+        name: "Ruchir Prasoon",
+        position: "Vice President of Product Tokopedia",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Andy.png",
+        name: "Andy Gozali",
+        position: "Country Head - RevComm Indonesia",
+      },
+      {
+        photo: "https://loyaltysummit.id/assets/images/Laode.png",
+        name: "Laode Hartanto",
+        position: "Chief Growth Officer - Dentsu",
+      },
+    ],
+    moderators: [
+      {
+        photo: "https://loyaltysummit.id/assets/images/Muliadi.png",
+        name: "Muliadi Jeo",
+        position: "CTO of Enterprise Solutions - SIRCLO",
+      },
+    ],
+  },
+  {
+    tags: [],
+    time: "16.05 - 16.25",
+    value:
+      "Closing Sessions - Fireside Chat: Tada Case Study “B2B Loyalty vs B2C Loyalty, which one is more important?",
+    speakers: [
+      {
+        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        name: "Juan Aristya & Devicca",
+        position: "",
+      },
+    ],
+    moderators: [],
+  },
+  {
+    tags: [],
+    time: "16.25 - 16.40",
+    value: "Doorprize",
+    speakers: [],
+    moderators: [],
+  },
+  {
+    tags: [],
+    time: "16.40 - 16.45",
     value: "Closing by MC",
     speakers: [],
     moderators: [],
