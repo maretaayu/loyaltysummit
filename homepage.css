@@ -78,7 +78,9 @@ p {
   flex: 1;
   margin: auto 0;
 }
-
+.sponsorship h3 {
+  color: var(--primary);
+}
 .sponsorship img {
   width: 100%;
   max-height: 75px;
