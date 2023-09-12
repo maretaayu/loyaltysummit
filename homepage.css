@@ -57,9 +57,13 @@ p {
 }
 .partner-container {
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
   justify-content: center;
+}
+@media (max-width: 768px) {
+  .partner-container {
+    flex-wrap: wrap;
+  }
 }
 .sponsor-content {
   display: grid;
@@ -75,8 +79,8 @@ p {
 }
 
 .sponsorship img {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  max-height: 75px;
 }
 .whatsapp img {
   width: 50px;
