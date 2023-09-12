@@ -771,3 +771,37 @@ if (window.location.pathname.endsWith("/")) {
   var newUrl = window.location.pathname.slice(0, -1);
   window.history.replaceState({}, document.title, newUrl);
 }
+
+// sponsorship
+const partners = {
+  platinum: ["dbo.png", "grabgift.png"],
+  gold: ["sirclo.png", "miitel.png", "prieds.png", "sanco.png"],
+  silver: [
+    "valuefirst.png",
+    "debellin.png",
+    "leka.png",
+    "alva.png",
+    "palbada.png",
+  ],
+  associate: ["gapmmi.png", "hippindo.png", "ap3mi.png", "perkosmi.png"],
+};
+
+function createPartnerElements(category) {
+  const partnerContainer = document.getElementById(category);
+  const logos = partners[category];
+
+  logos.forEach((logo) => {
+    const partnerItem = document.createElement("div");
+    partnerItem.classList.add("partner-item");
+    const img = document.createElement("img");
+    img.src = `https://loyaltysummit.id/assets/images/sponsor/${logo}`;
+    img.alt = `${category} Partner`;
+    partnerItem.appendChild(img);
+    partnerContainer.appendChild(partnerItem);
+  });
+}
+
+createPartnerElements("platinum");
+createPartnerElements("gold");
+createPartnerElements("silver");
+createPartnerElements("associate");
