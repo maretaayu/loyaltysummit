@@ -202,6 +202,11 @@ const speakers = [
     name: "Bonifasius Victoria",
     position: "CEO Sanco Indonesia",
   },
+  {
+    img: "https://loyaltysummit.id/assets/images/additional/Andiny.png",
+    name: "Andiny Kismaryanti",
+    position: "Shopper Marketing PT. Paragon Technology & Innovations",
+  },
 
   // {
   //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng-1.png",
@@ -412,7 +417,7 @@ const agendaData = [
         position: "Former CEO of Ranch Market",
       },
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        photo: "https://loyaltysummit.id/assets/images/Andiny.png",
         name: "Andiny Kismaryanti",
         position: "Shopper Marketing PT. Paragon Technology & Innovations",
       },
