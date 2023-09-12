@@ -597,8 +597,7 @@ const agendaData = [
   {
     tags: [],
     time: "16.05 - 16.25",
-    value:
-      "Closing Sessions - Fireside Chat: Tada Case Study “B2B Loyalty vs B2C Loyalty, which one is more important?",
+    value: `Closing Sessions - Fireside Chat: Tada Case Study "B2B Loyalty vs B2C Loyalty, which one is more important?"`,
     speakers: [
       {
         photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
