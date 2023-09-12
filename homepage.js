@@ -784,7 +784,7 @@ const partners = {
   silver: [
     "valuefirst.png",
     "debellin.png",
-    "leka.png",
+    "leka-logo.png",
     "alva.png",
     "palbada.png",
   ],
