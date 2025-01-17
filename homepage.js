@@ -32,7 +32,7 @@ function changeImages() {
 setInterval(changeImages, 3500);
 
 // countdown
-const targetDate = new Date("September 14, 2023 09:00:00").getTime();
+const targetDate = new Date("May 22, 2025 09:00:00").getTime();
 
 // Update countdown setiap detik
 const countdownTimer = setInterval(function () {
