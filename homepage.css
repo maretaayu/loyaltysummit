@@ -508,6 +508,10 @@ p {
   transform: translate(-50%, -50%);
 }
 @media (min-width: 768px) {
+  .agenda-time {
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+  }
   .opp-about-desc {
     text-align: center;
   }
@@ -1114,11 +1118,232 @@ a {
 }
 
 .agenda-container {
-  background: url("https://www.usetada.com/wp-content/uploads/2023/07/bg-speaker-1.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: linear-gradient(
+    178deg,
+    #1b3286 1.7%,
+    #3e35a5 44.37%,
+    #2e589d 98.07%
+  );
   padding: 4rem 0;
 }
+
+/* agenda timeline */
+
+.agenda-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.title-bold-40 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.group-agenda {
+  position: relative;
+}
+
+/* Timeline line */
+.group-agenda::before {
+  content: "";
+  position: absolute;
+  left: 230px;
+  top: 25px;
+  width: 2px;
+  height: calc(100% - 50px);
+  background-color: white;
+}
+
+.box-agenda {
+  display: flex;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+/* Timeline node */
+.box-agenda::before {
+  content: "";
+  position: absolute;
+  left: 230px;
+  top: 20px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 4px solid white;
+  z-index: 1;
+  transform: translateX(-50%);
+}
+
+/* Horizontal line to content */
+.box-agenda::after {
+  content: "";
+  position: absolute;
+  left: 230px;
+  top: 28px;
+  width: 40px;
+  height: 2px;
+  background: url("assets/2025/Line.svg");
+  /* background-color: white; */
+}
+
+.agenda-time {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8d74a;
+  border-radius: 20px;
+  margin-right: 40px;
+  flex-shrink: 0;
+  position: relative;
+  left: 20px;
+}
+
+.agenda-time p {
+  font-weight: 600;
+  color: #333;
+}
+
+.agenda-value {
+  flex: 1;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 64px;
+}
+
+.agenda-title {
+  margin-bottom: 15px;
+}
+
+.agenda-title h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.agenda-title p {
+  font-size: 16px;
+  color: #666;
+}
+
+.agenda-category {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.keynote {
+  background-color: #ffebee;
+  color: #d32f2f;
+}
+
+.panel {
+  background-color: #e3f2fd;
+  color: #1976d2;
+}
+
+.break {
+  /* background-color: #e8f5e9; */
+  color: #388e3c;
+}
+
+.agenda-speakers {
+  margin-top: 15px;
+}
+
+.agenda-speakers h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.speaker-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.speaker-item {
+  display: flex;
+  align-items: center;
+}
+
+.speaker-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+.speaker-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.speaker-detail p {
+  margin: 0;
+}
+
+.speaker-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.speaker-position {
+  font-size: 14px;
+  color: #666;
+}
+
+.moderator {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+@media (max-width: 768px) {
+  .group-agenda::before {
+    left: 30px;
+  }
+
+  .box-agenda {
+    padding-left: 50px;
+  }
+
+  .box-agenda::before {
+    left: 30px;
+  }
+
+  .box-agenda::after {
+    left: 38px;
+    width: 12px;
+  }
+
+  .agenda-time {
+    margin-right: 20px;
+    left: 0;
+  }
+
+  .agenda-value {
+    margin-left: 0;
+  }
+}
+/* end of agenda timeline  */
 
 .agenda-about {
   display: grid;
@@ -1243,21 +1468,12 @@ img.logo {
   gap: 1rem;
 }
 .box-agenda {
-  display: flex;
-  background: white;
-  padding: 2rem;
-  border-radius: 1rem;
-  box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2);
+  gap: 1rem;
 }
-.break {
-  /* background: rgba(253, 230, 138, 0.6); */
-  background: var(--accent);
-}
-.networking {
-  background: var(--primary);
-}
+
 .agenda-time {
   min-width: 150px;
+  margin-top: 10px;
 }
 
 .agenda-value {
@@ -1316,9 +1532,9 @@ img.logo {
   .box-agenda {
     flex-direction: column;
   }
-  .agenda-time,
+
   .agenda-value {
-    width: 100%;
+    width: -webkit-fill-available;
   }
 
   .agenda-speaker-item {
