@@ -2,7 +2,7 @@
 :root {
   margin: 0 !important;
   --primary: #1e40af;
-  --accent: #fde68a;
+  --accent: #ecd430;
   --cta: #e8762e;
   --text: #4b5563;
   --foreground: #f3f4f6;
@@ -55,6 +55,9 @@ p {
   margin: 0 auto;
   width: 90%;
 }
+.venue-img {
+  margin-top: 12px;
+}
 .partner-container {
   display: flex;
   gap: 2rem;
@@ -97,7 +100,6 @@ p {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 /* Title classes */
@@ -248,6 +250,24 @@ p {
 
 /* Mobile definitions */
 @media (max-width: 768px) {
+  .about-participant-mobile {
+    background: url("assets/2025/BgSectionParticipant.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 52px 0;
+    text-align: center;
+  }
+  .about-participant {
+    max-width: 80%;
+    margin: auto;
+  }
+  .speakers-hero {
+    width: 176px !important;
+    height: 36px !important;
+  }
+  .flex-speakers {
+    gap: 8px !important;
+  }
   .highlight img {
     height: 42px;
   }
@@ -267,9 +287,6 @@ p {
     text-align: center;
     width: 80% !important;
     padding: 2rem !important;
-  }
-  .about-participant {
-    padding-bottom: 4rem;
   }
   .contact-item {
     width: 100%;
@@ -454,27 +471,70 @@ p {
   .box {
     padding: 0.75rem !important;
   }
-  .hero-countdown {
-    height: 280px !important;
-  }
   .countdown {
     margin-top: 1.5rem !important;
-  }
-  .hero {
-    text-align: center;
-  }
-  .hero-content-countdown {
-    padding: 4rem 0 1rem !important;
-    justify-content: center !important;
   }
   .collab-content {
     width: 90%;
   }
 }
 
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 24px;
+}
+
+.flex-speakers {
+  align-items: center;
+  gap: 28px;
+}
+
+.opp-item {
+  border-radius: 12px;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.2) 100%
+  );
+
+  backdrop-filter: blur(25px);
+  padding: 16px 16px 16px 50px;
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+.opp-item img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (min-width: 768px) {
-  .hero-content {
-    padding: 11.5rem 0 10rem;
+  .opp-detail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 48px;
+  }
+  .about-conference-content {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: center;
+  }
+  .hero-group {
+    gap: 24px;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 130px 0 140px;
+  }
+  .speakers-hero {
+    width: 400px;
+    height: 80px;
   }
   .insight-group {
     justify-content: center;
@@ -496,16 +556,9 @@ p {
   }
 
   .venue-img img {
-    height: 350px;
-    width: -webkit-fill-available;
-    object-fit: cover;
     border-radius: 12px;
   }
-  .hero {
-    height: 968px;
-  }
   .speaker img {
-    height: 220px !important;
     object-fit: contain;
   }
 
@@ -641,7 +694,7 @@ p {
 
 /* hero  */
 .hero {
-  background-image: url("assets/images/bg-hero-new-resized.png");
+  background-image: url("assets/2025/BgSectionHero.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -764,7 +817,6 @@ a {
   font-family: Arial, sans-serif;
   font-size: 24px;
   text-align: center;
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   gap: 1rem;
@@ -773,16 +825,13 @@ a {
   font-weight: bold;
 }
 .box {
-  border: 1px solid;
-  border-image-source: linear-gradient(
-    90deg,
-    #bfdbfe 0%,
-    rgba(191, 219, 254, 0) 100%
-  );
-  border-image-slice: 1;
-  border-width: 1px;
-  padding: 0.75rem 2rem;
-  border-radius: 80px;
+  background: linear-gradient(180deg, #fff 0%, #bfdbfe 75%);
+  width: 102px;
+  height: 99px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 12px;
 }
 .radius {
   border-radius: 80px;
@@ -797,14 +846,10 @@ a {
   position: relative;
 }
 
-.hero-countdown {
-  background: #070035;
-  opacity: 0.4;
-  height: 275px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
+.hero-countdown-container {
+  background: url("assets/2025/BgSectionCountdown.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .hero-container,
@@ -831,16 +876,16 @@ a {
 }
 
 .participant {
-  min-width: 255px;
+  min-width: 100px;
   margin-right: 2rem;
   display: flex;
   border-radius: 100px;
-  background: white;
+  background: linear-gradient(180deg, #fff 0%, #bfdbfe 100%);
   color: var(--primary);
   font-weight: 600;
   /* Natural */
   /* box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 0.2); */
-  padding: 1rem 2rem;
+  padding: 1rem;
   justify-content: center;
   align-items: center;
 }
@@ -849,7 +894,6 @@ a {
 }
 #carousel2 {
   margin-top: 1.5rem;
-  margin-bottom: 4rem;
 }
 
 /* insight  */
@@ -889,12 +933,14 @@ a {
 
 /* speakers  */
 .speakers {
-  background: url("https://www.usetada.com/wp-content/uploads/2023/07/bg-speakers-resize-1.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  padding: 24rem 0 6rem;
-  margin-top: -18.4rem;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(65, 49, 158, 0.5) 0%,
+    #286281 57.4%,
+    #1b3286 100%
+  );
+  padding: 100px 0;
+  margin-top: -7px;
 }
 .speakers-content {
   display: grid;
@@ -904,9 +950,18 @@ a {
 
 .speaker {
   text-align: center;
-  border-radius: 12px;
-  width: unset;
-  background: var(--gradient-yellow);
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-info {
+  background: var(
+    --White-Blue,
+    linear-gradient(0deg, #c3ddfe 14.74%, #fff 100%)
+  );
+  padding: 8px;
+  border-radius: 8px;
+  margin-top: -40px;
 }
 
 .speaker p {
@@ -914,16 +969,8 @@ a {
 }
 .speaker img {
   max-width: 100%;
-  height: 215px;
-  object-fit: cover;
+  height: auto;
   width: 100%;
-  border-top-left-radius: 12px;
-
-  border-top-right-radius: 12px;
-  background: var(
-    --gradient-tada-base,
-    linear-gradient(90deg, #bfdbfe 0%, rgba(191, 219, 254, 0) 100%)
-  );
 }
 
 .speaker h3 {
@@ -943,6 +990,10 @@ a {
   gap: 1rem;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
 .flex-row img {
   height: fit-content;
   width: fit-content;
@@ -954,7 +1005,7 @@ a {
 
 /* opportunities  */
 .opportunities {
-  background: url("https://www.usetada.com/wp-content/uploads/2023/07/bg-unlock-1.png");
+  background: url("assets/2025/BgSectionOpportunities.png");
   padding: 5rem 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -966,9 +1017,6 @@ a {
   gap: 1.5rem;
 }
 
-.opp-about-desc p {
-  width: 70%;
-}
 .opp-detail {
   display: grid;
   gap: 2rem;
@@ -1059,6 +1107,15 @@ a {
   display: grid;
   gap: 1rem;
 }
+.about-conference {
+  background: url("assets/2025//BgSectionAbout.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+.gap-24 {
+  gap: 1.5rem;
+}
 
 .agenda-container {
   background: url("https://www.usetada.com/wp-content/uploads/2023/07/bg-speaker-1.png");
@@ -1075,16 +1132,23 @@ a {
 
 /* venue  */
 .venue {
-  background: url("https://www.usetada.com/wp-content/uploads/2023/07/bg-venue-1.png");
+  background: url("/assets/2025/BgVenue.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 4rem 0;
 }
 
+.venue-content {
+  background-color: white;
+  padding: 24px;
+  border-radius: 12px;
+}
+
 .venue-desc {
-  display: grid;
-  gap: 2rem;
-  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 24px;
 }
 
 /* sponsorship  */
@@ -1220,9 +1284,30 @@ img.logo {
   display: flex;
   gap: 1rem;
 }
-
+.w-full {
+  width: 100%;
+}
 /* Mobile styles */
 @media (max-width: 768px) {
+  .speakers {
+    padding: 52px 0 !important;
+  }
+  .box {
+    width: 48px !important;
+    height: 55px !important;
+  }
+  .hero-content-countdown {
+    text-align: center;
+    justify-content: center;
+  }
+  .hero-content-countdown h2 {
+    font-size: 18px;
+  }
+  .about-conference-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
   .desktop {
     display: none !important;
   }
@@ -1238,10 +1323,6 @@ img.logo {
     flex-basis: 100%;
   }
 }
-.abt {
-  text-align: center;
-}
-
 .box-sponsor {
   padding: 1.25rem;
   border-radius: 0.75rem;
@@ -1310,8 +1391,4 @@ img.logo {
 }
 .agenda-speaker-item img {
   height: fit-content;
-}
-
-.hero-content {
-  text-align: center;
 }

@@ -101,160 +101,105 @@ endlessScroll("carousel2", -0.5);
 // speakers
 const speakers = [
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Ricky.png",
+    img: "/assets/2025/Ricky.png",
     name: "Ricky Afrianto",
     position: "Global Director PT. Mayora Indah Tbk",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Enjel.png",
-    name: "Enjelita Jahja ",
+    img: "/assets/2025/Enjelita.png",
+    name: "Enjelita Jahja",
     position: "Sr. Industry Lead Google Indonesia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Ravi-Khumar.png",
+    img: "/assets/2025/Ravi.png",
     name: "Ravi Kumar",
     position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin-1.png",
-    name: "Linda Valentin ",
+    img: "/assets/2025/Linda.png",
+    name: "Linda Valentin",
     position: "Chief Commercial Officer - ALFAGIFT",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Yopie.png",
+    img: "/assets/2025/Yopie.png",
     name: "Ir. Yopie Rissa, M.M., MBA",
     position: "Country Head B2B & OEM, BP Castrol",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Adrian.png",
+    img: "/assets/2025/Adrian.png",
     name: "Adrian Baskoro",
     position: "Founder Routetomarket.id",
   },
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan-1.png",
+    img: "/assets/2025/Shalini.png",
     name: "Shalini Gopalan",
     position: "Founder & CEO of LoyaltyHub",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/Yongki-1.png",
+    img: "/assets/2025/Yongki.png",
     name: "Yongky Susilo",
-    position: "Retail and Consumer Strategist ",
+    position: "Retail and Consumer Strategist",
   },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti-1.png",
-  //   name: "Hilda Kitti",
-  //   position: "VP Marketing Tokopedia",
-  // },
   {
-    img: "https://loyaltysummit.id/assets/images/Antonius.png",
+    img: "/assets/2025/Antonius.png",
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
-
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Aaron.png",
+    img: "/assets/2025/Aaron.png",
     name: "Aaron Wijaya",
     position: "CEO of Depo Bangunan Online Indonesia",
   },
-
   {
-    img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Mardiansyah-Putra-1.png",
+    img: "/assets/2025/Mardiansyah.png",
     name: "Mardiansyah Putra",
     position: "General Manager of Commercial Strategic Tada",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/RuchirPrasoon.png",
+    img: "/assets/2025/Ruchir.png",
     name: "Ruchir Prasoon",
     position: "Vice President of Product Tokopedia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/PramitaHadi2.png",
+    img: "/assets/2025/Pramita.png",
     name: "Pramita Hadi",
     position: "Head of GTM, Product, and Operation at Grab for Business",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Muliadi.png",
+    img: "/assets/2025/Muliadi.png",
     name: "Muliadi Jeo",
     position: "CTO of Enterprise Solutions Sirclo",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Andy.png",
+    img: "/assets/2025/Andy.png",
     name: "Andy Gozali",
     position: "Country Head - RevComm Indonesia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Meshvara.png",
+    img: "/assets/2025/Meshvara.png",
     name: "Meshvara Kanjaya",
     position: "Former CEO Ranch Market",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Laode.png",
+    img: "/assets/2025/Laode.png",
     name: "Laode Hartanto",
     position: "Chief Growth Officer Dentsu Indonesia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Mark.png",
+    img: "/assets/2025/Mark.png",
     name: "Mark Gabriel Priyono",
     position: "CEO Prieds",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Bonifasius.png",
+    img: "/assets/2025/Bonifasius.png",
     name: "Bonifasius Victoria",
     position: "CEO Sanco Indonesia",
   },
   {
-    img: "https://loyaltysummit.id/assets/images/additional/Andiny.png",
+    img: "/assets/2025/Andiny.png",
     name: "Andiny Kismaryanti",
     position: "Shopper Marketing PT. Paragon Technology & Innovations",
   },
-
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Derrick-Heng-1.png",
-  //   name: "Derrick Heng",
-  //   position: "CMO Telkomsel",
-  // },
-
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
-  //   name: "Riri Amalas Yulia",
-  //   position: "Director Operation PT. CRM Kalbe",
-  // },
-  // {
-  //   img: "https://loyaltysummit.id/assets/images/Niraj-1.png",
-  //   name: "Niraj Jain",
-  //   position: "CFO Matahari Dept Store",
-  // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Riri-Amalas-Yulia-1.png",
-  //   name: "Riri Amalas Yulia",
-  //   position: "Director Operation PT. CRM Kalbe",
-  // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma-1.png",
-  //   name: "VP Sharma",
-  //   position: "CEO MAP",
-  // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Melissa-Hendrawati-1.png",
-  //   name: "Melissa Hendrawati",
-  //   position: "CFO Superbank Indonesia",
-  // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Irinne-Dwiyuliana-Pratiwi-1.png",
-  //   name: "Irinne Dwiyuliana Pratiwi",
-  //   position: "GM Marketing Erha Clinic Indonesia (Arya Noble)",
-  // },
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Franz-Hermawan-1.png",
-  //   name: "Franz Hermawan",
-  //   position: "GM Business Development PT. EXXON Mobil Indonesia",
-  // },
-
-  // {
-  //   img: "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma-1.png",
-  //   name: "VP Sharma",
-  //   position: "CEO MAP",
-  // },
 ];
 const speakersDiv = document.getElementById("speakerGrid");
 
@@ -263,8 +208,10 @@ speakers.forEach((speaker) => {
   speakerDiv.className = "speaker";
   speakerDiv.innerHTML = `
           <img src="${speaker.img}" alt="${speaker.name}">
+          <div class="speaker-info">
           <h3>${speaker.name}</h3>
           <p>${speaker.position}</p>
+          </div>
       `;
   speakersDiv.appendChild(speakerDiv);
 });
@@ -310,7 +257,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Enjel.png",
+        photo: "/assets/images/Enjel.png",
         name: "Enjelita Jahja",
         position: "Senior Industry Lead - Google",
       },
@@ -346,7 +293,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Ricky.png",
+        photo: "/assets/images/Ricky.png",
         name: "Ricky Afrianto",
         position: "Director and Global Marketing PT. Mayora Indah, Tbk",
       },
@@ -375,7 +322,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Ravi.png",
+        photo: "/assets/images/Ravi.png",
         name: "Ravi Kumar",
         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
@@ -395,12 +342,12 @@ const agendaData = [
     category: "agenda",
     speakers: [
       // {
-      //   photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+      //   photo: "/assets/icons/profile-user.svg",
       //   name: "*tbc",
       //   position: "*tbc",
       // },
       // {
-      //   photo: "https://loyaltysummit.id/assets/images/Ravi.png",
+      //   photo: "/assets/images/Ravi.png",
       //   name: "Ravi Kumar",
       //   position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       // },
@@ -412,12 +359,12 @@ const agendaData = [
         position: "CCO Alfagift",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Meshvara.png",
+        photo: "/assets/images/Meshvara.png",
         name: "Meshvara Kanjaya",
         position: "Former CEO of Ranch Market",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Andiny.png",
+        photo: "/assets/images/Andiny.png",
         name: "Andiny Kismaryanti",
         position: "Shopper Marketing PT. Paragon Technology & Innovations",
       },
@@ -468,7 +415,7 @@ const agendaData = [
       //   position: "VP Marketing Tokopedia",
       // },
       {
-        photo: "https://loyaltysummit.id/assets/images/Adrian.png",
+        photo: "/assets/images/Adrian.png",
         name: "Adrian Baskoro",
         position: "Trade Marketing Expert & Founder Routetomarket.id",
       },
@@ -482,7 +429,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Yopie.png",
+        photo: "/assets/images/Yopie.png",
         name: "Yopie Rissa",
         position: "Country Head B2B & OEM PT. Castrol Indonesia",
       },
@@ -496,7 +443,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Aaron.png",
+        photo: "/assets/images/Aaron.png",
         name: "Aaron Wijaya",
         position: "CEO of Depo Bangunan Online Indonesia",
       },
@@ -510,7 +457,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Pramita.png",
+        photo: "/assets/images/Pramita.png",
         name: "Pramita Hadi",
         position: "Head of GTM, Product, and Operation at Grab for Business",
       },
@@ -530,17 +477,17 @@ const agendaData = [
       //   position: "CM Business Development PT. EXXON Mobil Indonesia",
       // },
       {
-        photo: "https://loyaltysummit.id/assets/images/Mardiansyah.png",
+        photo: "/assets/images/Mardiansyah.png",
         name: "Mardiansyah Putra",
         position: "General Manager of Commercial Strategic Tada",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Mark.png",
+        photo: "/assets/images/Mark.png",
         name: "Mark Gabriel Priyono",
         position: "CEO Prieds",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Bonifasius.png",
+        photo: "/assets/images/Bonifasius.png",
         name: "Bonifasius Victoria",
         position: "CEO Sanco Indonesia",
       },
@@ -562,7 +509,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Muliadi.png",
+        photo: "/assets/images/Muliadi.png",
         name: "Muliadi Jeo",
         position: "CTO of Enterprise Solutions - SIRCLO",
       },
@@ -576,24 +523,24 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/images/additional/Ruchir.png",
+        photo: "/assets/images/additional/Ruchir.png",
         name: "Ruchir Prasoon",
         position: "Vice President of Product Tokopedia",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Andy.png",
+        photo: "/assets/images/Andy.png",
         name: "Andy Gozali",
         position: "Country Head - RevComm Indonesia",
       },
       {
-        photo: "https://loyaltysummit.id/assets/images/Laode.png",
+        photo: "/assets/images/Laode.png",
         name: "Laode Hartanto",
         position: "Chief Growth Officer - Dentsu",
       },
     ],
     moderators: [
       {
-        photo: "https://loyaltysummit.id/assets/images/Muliadi.png",
+        photo: "/assets/images/Muliadi.png",
         name: "Muliadi Jeo",
         position: "CTO of Enterprise Solutions - SIRCLO",
       },
@@ -605,7 +552,7 @@ const agendaData = [
     value: `Closing Sessions - Fireside Chat: Tada Case Study "B2B Loyalty vs B2C Loyalty, which one is more important?"`,
     speakers: [
       {
-        photo: "https://loyaltysummit.id/assets/icons/profile-user.svg",
+        photo: "/assets/icons/profile-user.svg",
         name: "Juan Aristya & Devicca",
         position: "",
       },
@@ -799,7 +746,7 @@ function createPartnerElements(category) {
     const partnerItem = document.createElement("div");
     partnerItem.classList.add("partner-item");
     const img = document.createElement("img");
-    img.src = `https://loyaltysummit.id/assets/images/sponsor/${logo}`;
+    img.src = `/assets/images/sponsor/${logo}`;
     img.alt = `${category} Partner`;
     partnerItem.appendChild(img);
     partnerContainer.appendChild(partnerItem);
