@@ -13,14 +13,12 @@ window.addEventListener("scroll", function () {
     mainLinks.forEach((link) => {
       link.classList.add("scrolled");
     });
-    logoImg.src =
-      "https://loyaltyrewards-conference.com/wp-content/uploads/2023/08/Final-Logo-Blue-1.png";
+    logoImg.src = "/assets/2025/Logo.svg";
   } else {
     mainHeader.classList.remove("scrolled");
     mainLinks.forEach((link) => {
       link.classList.remove("scrolled");
     });
-    logoImg.src =
-      "https://loyaltyrewards-conference.com/wp-content/uploads/2023/08/Final-Logo-White.png";
+    logoImg.src = "/assets/2025/Logo.svg";
   }
 });

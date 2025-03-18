@@ -1,22 +1,29 @@
 .footer {
-  background: var(--gradient-tada);
-  padding: 9rem 0 4rem;
-  margin-top: -90px;
+  background: linear-gradient(
+    88deg,
+    #4633ac 0%,
+    #1e3588 47.41%,
+    #264b93 99.14%
+  );
+  padding: 100px 0;
 }
 .footer-content {
   display: flex;
   justify-content: space-between;
 }
 .footer-logo img {
-  width: 350px;
+  width: 266px;
+}
+ul {
+  padding: 0 !important;
 }
 @media (max-width: 768px) {
+  .footer {
+    padding: 48px 0;
+  }
   .footer-content {
     flex-direction: column;
     gap: 2rem;
-  }
-  .footer {
-    margin-top: -6.8rem !important;
   }
 }
 
