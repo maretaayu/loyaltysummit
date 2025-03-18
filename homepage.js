@@ -242,8 +242,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Photo-Speaker-2.png",
+        photo: "/assets/2025/Antonius.png",
         name: "Antonius Taufan",
         position: "Founder & Managing Director Tada",
       },
@@ -278,8 +277,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
+        photo: "/assets/2025/Yongki.png",
         name: "Yongky Susilo",
         position: "Retail and Consumer Strategist ",
       },
@@ -307,8 +305,7 @@ const agendaData = [
     category: "agenda",
     speakers: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
+        photo: "/assets/2025/Shalini.png",
         name: "Shalini Gopalan",
         position: "Founder of LoyaltyHub",
       },
@@ -353,8 +350,7 @@ const agendaData = [
       // },
 
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Linda-Valentin.png",
+        photo: "/assets/2025/Linda.png",
         name: "Linda Valentine",
         position: "CCO Alfagift",
       },
@@ -371,8 +367,7 @@ const agendaData = [
     ],
     moderators: [
       {
-        photo:
-          "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Yongki-Susilo.png",
+        photo: "/assets/2025/Yongki.png",
         name: "Yongky Susilo",
         position: "Retail and Consumer Strategist ",
       },

@@ -1607,6 +1607,8 @@ img.logo {
 .agenda-speaker-item {
   align-items: center;
 }
-.agenda-speaker-item img {
-  height: fit-content;
+.agenda-speaker-item img,
+.agenda-moderator-item img {
+  height: 48px;
+  width: 48px;
 }
