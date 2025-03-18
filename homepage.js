@@ -725,17 +725,18 @@ if (window.location.pathname.endsWith("/")) {
 }
 
 // sponsorship
+// sponsorship
 const partners = {
-  platinum: ["dbo.png", "grabgift.png"],
-  gold: ["sirclo.png", "miitel.png", "prieds.png", "sanco.png"],
+  platinum: ["DBO.svg", "Grab.svg"],
+  gold: ["Sirclo.svg", "MiiTel.svg", "Prieds.svg"],
   silver: [
-    "valuefirst.png",
-    "debellin.png",
-    "leka-logo.png",
-    "alva.png",
-    "palbada.png",
+    "ValueFirst.svg",
+    "Debellin.svg",
+    "Leka.svg",
+    "Alva.svg",
+    "Palbada.svg",
   ],
-  associate: ["gapmmi.png", "hippindo.png", "ap3mi.png", "perkosmi.png"],
+  associate: ["Gapmmi.svg", "Hippindo.svg", "AP3MI.svg", "Perkosmi.svg"],
 };
 
 function createPartnerElements(category) {
@@ -746,7 +747,7 @@ function createPartnerElements(category) {
     const partnerItem = document.createElement("div");
     partnerItem.classList.add("partner-item");
     const img = document.createElement("img");
-    img.src = `/assets/images/sponsor/${logo}`;
+    img.src = `/assets/2025/${logo}`;
     img.alt = `${category} Partner`;
     partnerItem.appendChild(img);
     partnerContainer.appendChild(partnerItem);
