@@ -469,9 +469,6 @@ img.photo-speaker {
   .countdown {
     margin-top: 1.5rem !important;
   }
-  .collab-content {
-    width: 90%;
-  }
 }
 
 .hero-title {
@@ -510,6 +507,10 @@ img.photo-speaker {
   transform: translate(-50%, -50%);
 }
 @media (min-width: 768px) {
+  .about-conference-content h2 {
+    text-align: left;
+    margin: 0;
+  }
   .agenda-time {
     margin-right: 20px !important;
     margin-left: 20px !important;
@@ -1108,6 +1109,9 @@ a {
   width: 100%;
 }
 
+.gap-12 {
+  gap: 0.75rem;
+}
 .gap-16 {
   display: grid;
   gap: 1rem;
@@ -1138,7 +1142,7 @@ a {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   color: white;
 }
 
