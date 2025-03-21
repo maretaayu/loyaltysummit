@@ -102,18 +102,28 @@ endlessScroll("carousel2", -0.5);
 const speakers = [
   {
     img: "/assets/2025/Ricky.png",
-    name: "Ricky Afrianto",
-    position: "Global Director PT. Mayora Indah Tbk",
+    name: "Karin Zulkarnaen",
+    position: "Chief Customer & Marketing Officer - Prudential Indonesia",
+  },
+  {
+    img: "/assets/2025/Yongki.png",
+    name: "Yongky Susilo",
+    position: "Retail and Consumer Strategist",
   },
   {
     img: "/assets/2025/Enjelita.png",
     name: "Enjelita Jahja",
-    position: "Sr. Industry Lead Google Indonesia",
+    position: "President Director - Castrol Indonesia",
   },
   {
     img: "/assets/2025/Ravi.png",
-    name: "Ravi Kumar",
-    position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
+    name: "Muhamad Gumilang",
+    position: "Senior VP Micro Development & Agent Banking Group - PT Bank Mandiri",
+  },
+  {
+    img: "/assets/2025/Antonius.png",
+    name: "Antonius Taufan",
+    position: "Founder & Managing Director Tada",
   },
   {
     img: "/assets/2025/Linda.png",
@@ -134,16 +144,6 @@ const speakers = [
     img: "/assets/2025/Shalini.png",
     name: "Shalini Gopalan",
     position: "Founder & CEO of LoyaltyHub",
-  },
-  {
-    img: "/assets/2025/Yongki.png",
-    name: "Yongky Susilo",
-    position: "Retail and Consumer Strategist",
-  },
-  {
-    img: "/assets/2025/Antonius.png",
-    name: "Antonius Taufan",
-    position: "Founder & Managing Director Tada",
   },
   {
     img: "/assets/2025/Aaron.png",
