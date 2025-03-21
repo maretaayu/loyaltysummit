@@ -119,6 +119,11 @@ const speakers = [
     img: "/assets/2025/Ravi.png",
     name: "Muhamad Gumilang",
     position: "Senior VP Micro Development & Agent Banking Group - PT Bank Mandiri",
+  }, 
+  {
+    img: "/assets/2025/Adrian.png",
+    name: "Adrian Baskoro",
+    position: "Founder Routetomarket.id",
   },
   {
     img: "/assets/2025/Antonius.png",
@@ -134,11 +139,6 @@ const speakers = [
     img: "/assets/2025/Yopie.png",
     name: "Ir. Yopie Rissa, M.M., MBA",
     position: "Country Head B2B & OEM, BP Castrol",
-  },
-  {
-    img: "/assets/2025/Adrian.png",
-    name: "Adrian Baskoro",
-    position: "Founder Routetomarket.id",
   },
   {
     img: "/assets/2025/Shalini.png",
