@@ -118,7 +118,7 @@ const speakers = [
   {
     img: "/assets/2025/AdrianBaskoro2025.png",
     name: "Adrian Baskoro",
-    position: "Founder <br> Routetomarket.id<br><br>",
+    position: "Founder<br><br>Routetomarket.id",
   },
   {
     img: "/assets/2025/MuhamadGumilang.png",
@@ -129,7 +129,7 @@ const speakers = [
   {
     img: "/assets/2025/AT2025.png",
     name: "Antonius Taufan",
-    position: "Founder & Managing Director <br> Tada <br><br>",
+    position: "Founder & Managing Director<br><br><br>Tada",
   },
   // {
   //   img: "/assets/2025/Linda.png",
