@@ -113,12 +113,12 @@ const speakers = [
   {
     img: "/assets/2025/Enjelitacastrol.png",
     name: "Enjelita Jahja",
-    position: "President Director <br> Castrol Indonesia<br>",
+    position: "President Director <br> Castrol Indonesia<br><br>",
   },
   {
     img: "/assets/2025/AdrianBaskoro2025.png",
     name: "Adrian Baskoro",
-    position: "Founder <br> Routetomarket.id<br>",
+    position: "Founder <br> Routetomarket.id<br><br>",
   },
   {
     img: "/assets/2025/MuhamadGumilang.png",
