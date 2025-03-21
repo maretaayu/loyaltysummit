@@ -116,15 +116,15 @@ const speakers = [
     position: "President Director <br> Castrol Indonesia",
   },
   {
+    img: "/assets/2025/Adrian.png",
+    name: "Adrian Baskoro",
+    position: "Founder <br> Routetomarket.id",
+  },
+  {
     img: "/assets/2025/Ravi.png",
     name: "Muhamad Gumilang",
     position:
       "Senior VP Micro Development & Agent Banking Group <br> PT Bank Mandiri",
-  },
-  {
-    img: "/assets/2025/Adrian.png",
-    name: "Adrian Baskoro",
-    position: "Founder <br> Routetomarket.id",
   },
   {
     img: "/assets/2025/Antonius.png",
@@ -687,17 +687,17 @@ if (window.location.pathname.endsWith("/")) {
 // sponsorship
 // Daftar partner berdasarkan kategori
 const partners = {
-  platinum: ["DBO.svg", "Grab.svg"],
-  gold: ["Sirclo.svg", "MiiTel.svg", "Prieds.svg"],
-  silver: [
-    "ValueFirst.svg",
-    "Debellin.svg",
-    "Leka.svg",
-    "Alva.svg",
-    "Palbada.svg",
+  // platinum: ["DBO.svg", "Grab.svg"],
+  // gold: ["Sirclo.svg", "MiiTel.svg", "Prieds.svg"],
+  // silver: [
+  //   "ValueFirst.svg",
+  //   "Debellin.svg",
+  //   "Leka.svg",
+  //   "Alva.svg",
+  //   "Palbada.svg",
   ],
-  associate: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
-  test: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  Association: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  Community: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
 
 // Fungsi untuk membuat seluruh struktur sponsor
