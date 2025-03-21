@@ -106,28 +106,28 @@ const speakers = [
     position: "Chief Customer & Marketing Officer <br> Prudential Indonesia",
   },
   {
-    img: "/assets/2025/Yongki.png",
+    img: "/assets/2025/Yongkysusilo.png",
     name: "Yongky Susilo",
     position: "Retail and Consumer Strategist <br>",
   },
   {
-    img: "/assets/2025/Enjelita.png",
+    img: "/assets/2025/Enjelitacastrol.png",
     name: "Enjelita Jahja",
     position: "President Director <br> Castrol Indonesia",
   },
   {
-    img: "/assets/2025/Adrian.png",
+    img: "/assets/2025/AdrianBaskoro2025.png",
     name: "Adrian Baskoro",
     position: "Founder <br> Routetomarket.id",
   },
   {
-    img: "/assets/2025/Ravi.png",
+    img: "/assets/2025/MuhamadGumilang.png",
     name: "Muhamad Gumilang",
     position:
       "Senior VP Micro Development & Agent Banking Group <br> PT Bank Mandiri",
   },
   {
-    img: "/assets/2025/Antonius.png",
+    img: "/assets/2025/AT2025.png",
     name: "Antonius Taufan",
     position: "Founder & Managing Director <br> Tada",
   },
