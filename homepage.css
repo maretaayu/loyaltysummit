@@ -1315,6 +1315,9 @@ a {
     font-size: 1.5rem;
     margin-bottom: 0.5rem !important;
   }
+  .collab-content h2 {
+    text-align: left;
+  }
   .about-conference {
     padding: 48px 0;
   }
