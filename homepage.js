@@ -695,7 +695,7 @@ const partners = {
   //   "Leka.svg",
   //   "Alva.svg",
   //   "Palbada.svg",
-  ],
+  // ],
   association: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
   community: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
