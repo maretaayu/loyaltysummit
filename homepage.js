@@ -695,7 +695,7 @@ const partners = {
     "Alva.svg",
     "Palbada.svg",
   ],
-  associate: ["Gapmmi.svg", "Hippindo.svg", "AP3MI.svg", "Perkosmi.svg"],
+  associate: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
 
 function createPartnerElements(category) {
