@@ -131,11 +131,11 @@ const speakers = [
     name: "Antonius Taufan",
     position: "Founder & Managing Director <br> Tada",
   },
-  // {
-  //   img: "/assets/2025/Linda.png",
-  //   name: "Linda Valentin",
-  //   position: "Chief Commercial Officer - ALFAGIFT",
-  // },
+  {
+    img: "/assets/2025/Linda.png",
+    name: "Linda Valentin",
+    position: "Chief Commercial Officer - ALFAGIFT",
+  },
   // {
   //   img: "/assets/2025/Yopie.png",
   //   name: "Ir. Yopie Rissa, M.M., MBA",
