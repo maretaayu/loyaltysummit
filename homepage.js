@@ -129,7 +129,7 @@ const speakers = [
   {
     img: "/assets/2025/AT2025.png",
     name: "Antonius Taufan",
-    position: "Founder & Managing Director <br> Tada<br>",
+    position: "Founder & Managing Director <br> Tada <br><br>",
   },
   // {
   //   img: "/assets/2025/Linda.png",
