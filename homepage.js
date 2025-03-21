@@ -103,14 +103,14 @@ const speakers = [
   {
     img: "/assets/2025/Ricky.png",
     name: "Karin Zulkarnaen",
-    company: "Prudential Indonesia",
+    name: "Prudential Indonesia",
     position: "Chief Customer & Marketing Officer",
   },
   {
     img: "/assets/2025/Yongki.png",
     name: "Yongky Susilo",
     position: "Retail and Consumer Strategist",
-    company: "",
+    company: "test",
   },
   {
     img: "/assets/2025/Enjelita.png",
