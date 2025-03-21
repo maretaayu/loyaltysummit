@@ -103,8 +103,7 @@ const speakers = [
   {
     img: "/assets/2025/Ricky.png",
     name: "Karin Zulkarnaen",
-    name: "Prudential Indonesia",
-    position: "Chief Customer & Marketing Officer",
+    position: "Chief Customer & Marketing Officer <br> Prudential Indonesia",
   },
   {
     img: "/assets/2025/Yongki.png",
