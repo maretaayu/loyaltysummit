@@ -103,17 +103,20 @@ const speakers = [
   {
     img: "/assets/2025/Ricky.png",
     name: "Karin Zulkarnaen",
-    position: "Chief Customer & Marketing Officer - Prudential Indonesia",
+    position: "Chief Customer & Marketing Officer",
+    company: "Prudential Indonesia",
   },
   {
     img: "/assets/2025/Yongki.png",
     name: "Yongky Susilo",
     position: "Retail and Consumer Strategist",
+    company: "Prudential Indonesia",
   },
   {
     img: "/assets/2025/Enjelita.png",
     name: "Enjelita Jahja",
-    position: "President Director - Castrol Indonesia",
+    position: "President Director", 
+    company: "Castrol Indonesia",
   },
   {
     img: "/assets/2025/Ravi.png",
