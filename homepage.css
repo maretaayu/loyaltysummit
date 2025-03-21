@@ -1213,10 +1213,6 @@ a {
   margin-left: 64px;
 }
 
-.agenda-title {
-  margin-bottom: 15px;
-}
-
 .agenda-title h3 {
   font-size: 18px;
   font-weight: 700;
@@ -1382,9 +1378,9 @@ a {
   background: url("assets/2025/SectionSupported.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-left: -20px;
+  margin-left: -27px;
   margin-top: -20px;
-  margin-bottom: -30px;
+  margin-bottom: -32px;
   padding: 4rem 30px;
 }
 
@@ -1482,7 +1478,7 @@ img.logo {
 
 .agenda-value {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 .agenda-speaker {
   display: grid;
@@ -1605,7 +1601,7 @@ img.logo {
 .agenda-speakers,
 .agenda-moderators {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-top: 1rem;
 }
 .agenda-speaker-item {
