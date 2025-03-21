@@ -533,8 +533,8 @@ p {
     padding: 130px 0 140px;
   }
   .speakers-hero {
-    width: 400px;
-    height: 80px;
+    width: auto !important;
+    height: 70px !important;
   }
   .insight-group {
     justify-content: center;
@@ -1129,12 +1129,6 @@ a {
 
 /* agenda timeline */
 
-.agenda-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
-
 .title-bold-40 {
   font-size: 40px;
   font-weight: 700;
@@ -1317,6 +1311,13 @@ a {
 }
 
 @media (max-width: 768px) {
+  .title-bold-40 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem !important;
+  }
+  .about-conference {
+    padding: 48px 0;
+  }
   .group-agenda::before {
     left: 30px;
   }
