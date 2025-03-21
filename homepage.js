@@ -118,8 +118,9 @@ const speakers = [
   {
     img: "/assets/2025/Ravi.png",
     name: "Muhamad Gumilang",
-    position: "Senior VP Micro Development & Agent Banking Group - PT Bank Mandiri",
-  }, 
+    position:
+      "Senior VP Micro Development & Agent Banking Group - PT Bank Mandiri",
+  },
   {
     img: "/assets/2025/Adrian.png",
     name: "Adrian Baskoro",
@@ -684,7 +685,7 @@ if (window.location.pathname.endsWith("/")) {
 }
 
 // sponsorship
-// sponsorship
+// Daftar partner berdasarkan kategori
 const partners = {
   platinum: ["DBO.svg", "Grab.svg"],
   gold: ["Sirclo.svg", "MiiTel.svg", "Prieds.svg"],
@@ -696,24 +697,65 @@ const partners = {
     "Palbada.svg",
   ],
   associate: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  test: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
 
-function createPartnerElements(category) {
-  const partnerContainer = document.getElementById(category);
-  const logos = partners[category];
+// Fungsi untuk membuat seluruh struktur sponsor
+function createSponsorStructure() {
+  const sponsorCategories = document.getElementById("sponsor-categories");
 
-  logos.forEach((logo) => {
-    const partnerItem = document.createElement("div");
-    partnerItem.classList.add("partner-item");
-    const img = document.createElement("img");
-    img.src = `/assets/2025/${logo}`;
-    img.alt = `${category} Partner`;
-    partnerItem.appendChild(img);
-    partnerContainer.appendChild(partnerItem);
+  // Hapus semua konten yang ada
+  sponsorCategories.innerHTML = "";
+
+  // Urutan kategori yang ingin ditampilkan (dari atas ke bawah)
+  const categoryOrder = ["platinum", "gold", "silver", "associate", "test"];
+
+  // Fungsi untuk memformat nama kategori
+  function formatCategoryName(category) {
+    // Kapitalisasi huruf pertama
+    const formattedName = category.charAt(0).toUpperCase() + category.slice(1);
+    return formattedName + " Partner";
+  }
+
+  // Buat struktur untuk setiap kategori
+  categoryOrder.forEach((category) => {
+    if (partners[category] && partners[category].length > 0) {
+      // Buat container kategori
+      const categoryDiv = document.createElement("div");
+      categoryDiv.className = "sponsor-category";
+
+      // Tambahkan judul kategori dengan format otomatis
+      const categoryTitle = document.createElement("h3");
+      categoryTitle.className = "subtitle-semibold-20";
+      categoryTitle.textContent = formatCategoryName(category);
+      categoryDiv.appendChild(categoryTitle);
+
+      // Buat container partner
+      const partnerContainer = document.createElement("div");
+      partnerContainer.className = "partner-container";
+      partnerContainer.id = category;
+
+      // Tambahkan semua partner untuk kategori ini
+      partners[category].forEach((partnerLogo) => {
+        const partnerDiv = document.createElement("div");
+        partnerDiv.className = "partner-item";
+
+        const img = document.createElement("img");
+        img.src = `./assets/2025/${partnerLogo}`;
+        img.alt = partnerLogo.replace(".svg", "") + " logo";
+
+        partnerDiv.appendChild(img);
+        partnerContainer.appendChild(partnerDiv);
+      });
+
+      // Tambahkan container partner ke kategori
+      categoryDiv.appendChild(partnerContainer);
+
+      // Tambahkan kategori ke container utama
+      sponsorCategories.appendChild(categoryDiv);
+    }
   });
 }
 
-createPartnerElements("platinum");
-createPartnerElements("gold");
-createPartnerElements("silver");
-createPartnerElements("associate");
+// Panggil fungsi saat halaman dimuat
+document.addEventListener("DOMContentLoaded", createSponsorStructure);
