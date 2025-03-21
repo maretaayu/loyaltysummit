@@ -697,7 +697,7 @@ const partners = {
   //   "Palbada.svg",
   // ],
   association: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
-  community: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  community: ["LogoSTMC.png", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
 
 // Fungsi untuk membuat seluruh struktur sponsor
