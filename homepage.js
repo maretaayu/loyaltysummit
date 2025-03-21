@@ -113,7 +113,7 @@ const speakers = [
   {
     img: "/assets/2025/Enjelitacastrol.png",
     name: "Enjelita Jahja",
-    position: "President Director <br> Castrol Indonesia<br><br>",
+    position: "President Director <br> <br><br>Castrol Indonesia",
   },
   {
     img: "/assets/2025/AdrianBaskoro2025.png",
