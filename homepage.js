@@ -130,76 +130,76 @@ const speakers = [
     name: "Antonius Taufan",
     position: "Founder & Managing Director Tada",
   },
-  {
-    img: "/assets/2025/Linda.png",
-    name: "Linda Valentin",
-    position: "Chief Commercial Officer - ALFAGIFT",
-  },
-  {
-    img: "/assets/2025/Yopie.png",
-    name: "Ir. Yopie Rissa, M.M., MBA",
-    position: "Country Head B2B & OEM, BP Castrol",
-  },
-  {
-    img: "/assets/2025/Shalini.png",
-    name: "Shalini Gopalan",
-    position: "Founder & CEO of LoyaltyHub",
-  },
-  {
-    img: "/assets/2025/Aaron.png",
-    name: "Aaron Wijaya",
-    position: "CEO of Depo Bangunan Online Indonesia",
-  },
-  {
-    img: "/assets/2025/Mardiansyah.png",
-    name: "Mardiansyah Putra",
-    position: "General Manager of Commercial Strategic Tada",
-  },
-  {
-    img: "/assets/2025/Ruchir.png",
-    name: "Ruchir Prasoon",
-    position: "Vice President of Product Tokopedia",
-  },
-  {
-    img: "/assets/2025/Pramita.png",
-    name: "Pramita Hadi",
-    position: "Head of GTM, Product, and Operation at Grab for Business",
-  },
-  {
-    img: "/assets/2025/Muliadi.png",
-    name: "Muliadi Jeo",
-    position: "CTO of Enterprise Solutions Sirclo",
-  },
-  {
-    img: "/assets/2025/Andy.png",
-    name: "Andy Gozali",
-    position: "Country Head - RevComm Indonesia",
-  },
-  {
-    img: "/assets/2025/Meshvara.png",
-    name: "Meshvara Kanjaya",
-    position: "Former CEO Ranch Market",
-  },
-  {
-    img: "/assets/2025/Laode.png",
-    name: "Laode Hartanto",
-    position: "Chief Growth Officer Dentsu Indonesia",
-  },
-  {
-    img: "/assets/2025/Mark.png",
-    name: "Mark Gabriel Priyono",
-    position: "CEO Prieds",
-  },
-  {
-    img: "/assets/2025/Bonifasius.png",
-    name: "Bonifasius Victoria",
-    position: "CEO Sanco Indonesia",
-  },
-  {
-    img: "/assets/2025/Andiny.png",
-    name: "Andiny Kismaryanti",
-    position: "Shopper Marketing PT. Paragon Technology & Innovations",
-  },
+  // {
+  //   img: "/assets/2025/Linda.png",
+  //   name: "Linda Valentin",
+  //   position: "Chief Commercial Officer - ALFAGIFT",
+  // },
+  // {
+  //   img: "/assets/2025/Yopie.png",
+  //   name: "Ir. Yopie Rissa, M.M., MBA",
+  //   position: "Country Head B2B & OEM, BP Castrol",
+  // },
+  // {
+  //   img: "/assets/2025/Shalini.png",
+  //   name: "Shalini Gopalan",
+  //   position: "Founder & CEO of LoyaltyHub",
+  // },
+  // {
+  //   img: "/assets/2025/Aaron.png",
+  //   name: "Aaron Wijaya",
+  //   position: "CEO of Depo Bangunan Online Indonesia",
+  // },
+  // {
+  //   img: "/assets/2025/Mardiansyah.png",
+  //   name: "Mardiansyah Putra",
+  //   position: "General Manager of Commercial Strategic Tada",
+  // },
+  // {
+  //   img: "/assets/2025/Ruchir.png",
+  //   name: "Ruchir Prasoon",
+  //   position: "Vice President of Product Tokopedia",
+  // },
+  // {
+  //   img: "/assets/2025/Pramita.png",
+  //   name: "Pramita Hadi",
+  //   position: "Head of GTM, Product, and Operation at Grab for Business",
+  // },
+  // {
+  //   img: "/assets/2025/Muliadi.png",
+  //   name: "Muliadi Jeo",
+  //   position: "CTO of Enterprise Solutions Sirclo",
+  // },
+  // {
+  //   img: "/assets/2025/Andy.png",
+  //   name: "Andy Gozali",
+  //   position: "Country Head - RevComm Indonesia",
+  // },
+  // {
+  //   img: "/assets/2025/Meshvara.png",
+  //   name: "Meshvara Kanjaya",
+  //   position: "Former CEO Ranch Market",
+  // },
+  // {
+  //   img: "/assets/2025/Laode.png",
+  //   name: "Laode Hartanto",
+  //   position: "Chief Growth Officer Dentsu Indonesia",
+  // },
+  // {
+  //   img: "/assets/2025/Mark.png",
+  //   name: "Mark Gabriel Priyono",
+  //   position: "CEO Prieds",
+  // },
+  // {
+  //   img: "/assets/2025/Bonifasius.png",
+  //   name: "Bonifasius Victoria",
+  //   position: "CEO Sanco Indonesia",
+  // },
+  // {
+  //   img: "/assets/2025/Andiny.png",
+  //   name: "Andiny Kismaryanti",
+  //   position: "Shopper Marketing PT. Paragon Technology & Innovations",
+  // },
 ];
 const speakersDiv = document.getElementById("speakerGrid");
 
