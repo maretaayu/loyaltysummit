@@ -260,13 +260,6 @@ const agendaData = [
         name: "Enjelita Jahja",
         position: "Senior Industry Lead - Google",
       },
-
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Shalini-Gopalan.png",
-      //   name: "Shalini Gopalan",
-      //   position: "Founder & CEO of LoyaltyHub",
-      // },
     ],
     moderators: [],
   },
@@ -323,12 +316,6 @@ const agendaData = [
         name: "Ravi Kumar",
         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
       },
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/VP-Sharma.png",
-      //   name: "VP Sharma",
-      //   position: "CEO MAP",
-      // },
     ],
     moderators: [],
   },
@@ -338,17 +325,6 @@ const agendaData = [
     value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo: "/assets/icons/profile-user.svg",
-      //   name: "*tbc",
-      //   position: "*tbc",
-      // },
-      // {
-      //   photo: "/assets/images/Ravi.png",
-      //   name: "Ravi Kumar",
-      //   position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
-      // },
-
       {
         photo: "/assets/2025/Linda.png",
         name: "Linda Valentine",
@@ -403,12 +379,6 @@ const agendaData = [
     value: `Keynote Speech: "How to Monitoring the Channel Activation and Growing the Right Channel"`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Hilda-Kitti.png",
-      //   name: "Hilda Kitti",
-      //   position: "VP Marketing Tokopedia",
-      // },
       {
         photo: "/assets/images/Adrian.png",
         name: "Adrian Baskoro",
@@ -465,12 +435,6 @@ const agendaData = [
     value: `Product Showcase: "Track, Trace, and Retain"`,
     category: "agenda",
     speakers: [
-      // {
-      //   photo:
-      //     "https://loyaltyrewards-conference.com/wp-content/uploads/2023/07/Franz-Hermawan.png",
-      //   name: "Franz Hermawana",
-      //   position: "CM Business Development PT. EXXON Mobil Indonesia",
-      // },
       {
         photo: "/assets/images/Mardiansyah.png",
         name: "Mardiansyah Putra",
@@ -547,7 +511,7 @@ const agendaData = [
     value: `Closing Sessions - Fireside Chat: Tada Case Study "B2B Loyalty vs B2C Loyalty, which one is more important?"`,
     speakers: [
       {
-        photo: "/assets/icons/profile-user.svg",
+        photo: "/assets/2025/profile-user.svg",
         name: "Juan Aristya & Devicca",
         position: "",
       },
