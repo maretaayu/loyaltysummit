@@ -696,8 +696,8 @@ const partners = {
   //   "Alva.svg",
   //   "Palbada.svg",
   ],
-  Association: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
-  Community: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  association: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
+  community: ["Gapmmi.svg", "Hippindo.svg", "ap3mi.svg", "Perkosmi.svg"],
 };
 
 // Fungsi untuk membuat seluruh struktur sponsor
@@ -708,7 +708,7 @@ function createSponsorStructure() {
   sponsorCategories.innerHTML = "";
 
   // Urutan kategori yang ingin ditampilkan (dari atas ke bawah)
-  const categoryOrder = ["platinum", "gold", "silver", "associate", "test"];
+  const categoryOrder = ["platinum", "gold", "silver", "association", "community"];
 
   // Fungsi untuk memformat nama kategori
   function formatCategoryName(category) {
