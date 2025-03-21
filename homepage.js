@@ -108,30 +108,28 @@ const speakers = [
   {
     img: "/assets/2025/Yongki.png",
     name: "Yongky Susilo",
-    position: "Retail and Consumer Strategist",
-    company: "test",
+    position: "Retail and Consumer Strategist <br>",
   },
   {
     img: "/assets/2025/Enjelita.png",
     name: "Enjelita Jahja",
-    position: "President Director", 
-    company: "Castrol Indonesia",
+    position: "President Director <br> Castrol Indonesia",
   },
   {
     img: "/assets/2025/Ravi.png",
     name: "Muhamad Gumilang",
     position:
-      "Senior VP Micro Development & Agent Banking Group - PT Bank Mandiri",
+      "Senior VP Micro Development & Agent Banking Group <br> PT Bank Mandiri",
   },
   {
     img: "/assets/2025/Adrian.png",
     name: "Adrian Baskoro",
-    position: "Founder Routetomarket.id",
+    position: "Founder <br> Routetomarket.id",
   },
   {
     img: "/assets/2025/Antonius.png",
     name: "Antonius Taufan",
-    position: "Founder & Managing Director Tada",
+    position: "Founder & Managing Director <br> Tada",
   },
   // {
   //   img: "/assets/2025/Linda.png",
