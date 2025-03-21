@@ -55,6 +55,11 @@ p {
   margin: 0 auto;
   width: 90%;
 }
+
+img.photo-speaker {
+  border-radius: 300px;
+  background: url("assets/2025/GradientBackground.svg") no-repeat center center;
+}
 .venue-img {
   margin-top: 12px;
 }

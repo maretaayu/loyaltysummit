@@ -208,7 +208,7 @@ speakers.forEach((speaker) => {
   const speakerDiv = document.createElement("div");
   speakerDiv.className = "speaker";
   speakerDiv.innerHTML = `
-          <img src="${speaker.img}" alt="${speaker.name}">
+          <img class="photo-speaker" src="${speaker.img}" alt="${speaker.name}">
           <div class="speaker-info">
           <h3>${speaker.name}</h3>
           <p>${speaker.position}</p>
@@ -708,7 +708,13 @@ function createSponsorStructure() {
   sponsorCategories.innerHTML = "";
 
   // Urutan kategori yang ingin ditampilkan (dari atas ke bawah)
-  const categoryOrder = ["platinum", "gold", "silver", "association", "community"];
+  const categoryOrder = [
+    "platinum",
+    "gold",
+    "silver",
+    "association",
+    "community",
+  ];
 
   // Fungsi untuk memformat nama kategori
   function formatCategoryName(category) {
