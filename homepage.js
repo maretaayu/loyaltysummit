@@ -267,18 +267,18 @@ const agendaData = [
   {
     tags: [],
     time: "10.05 - 10.45",
-    value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)"`,
+    value: `Panel Discussion: "🚗 B2B Loyalty Reinvented: Strengthening Channel & End Customers with Smart Incentives"`,
     category: "agenda",
     speakers: [
       {
         photo: "/assets/2025/Yongki.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
+        name: "Enjelita Jahya",
+        position: "President Director Castrol Indonesia",
       },
       {
-        photo: "/assets/2025/Yongki.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
+        photo: "/assets/2025/",
+        name: "TBC",
+        position: "",
       },
       {
         photo: "/assets/2025/Yongki.png",
