@@ -238,7 +238,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "09.35 - 09.45",
+    time: "09.35 - 09.40",
     value: "Opening Remarks",
     category: "agenda",
     speakers: [
@@ -252,14 +252,14 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "09.45 - 10.05",
-    value: `Keynote Speech: Navigating the Digital Media Landscape: The Paradigm Shift Era"`,
+    time: "09.40 - 10.05",
+    value: `Keynote Speech: 🏆 Loyalty Champion: Redefining Customer Engagement in the AI Era"`,
     category: "agenda",
     speakers: [
       {
-        photo: "/assets/images/Enjel.png",
-        name: "Enjelita Jahja",
-        position: "Senior Industry Lead - Google",
+        photo: "/assets/2025/Antonius.png",
+        name: "Antonius Taufan",
+        position: "Founder & Managing Director Tada",
       },
     ],
     moderators: [],
