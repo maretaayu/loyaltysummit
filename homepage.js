@@ -220,336 +220,336 @@ speakers.forEach((speaker) => {
 //agenda
 // agenda data array
 const agendaData = [
-  {
-    tags: [],
-    time: "08.30 - 09.30",
-    value: "Registration - networking session - Coffee Break",
-    category: "agenda",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "09.30 - 09.35",
-    value: "Opening by MC",
-    category: "agenda",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "09.35 - 09.40",
-    value: "Opening Remarks",
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/2025/Antonius.png",
-        name: "Antonius Taufan",
-        position: "Founder & Managing Director Tada",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "09.40 - 10.05",
-    value: `Keynote Speech: 🏆 Loyalty Champion: Redefining Customer Engagement in the AI Era"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/2025/Antonius.png",
-        name: "Antonius Taufan",
-        position: "Founder & Managing Director Tada",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "10.05 - 10.45",
-    value: `Panel Discussion: "🚗 B2B Loyalty Reinvented: Strengthening Channel & End Customers with Smart Incentives"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/2025/Yongki.png",
-        name: "Enjelita Jahya",
-        position: "President Director Castrol Indonesia",
-      },
-      {
-        photo: "/assets/2025/",
-        name: "TBC",
-        position: "",
-      },
-      {
-        photo: "/assets/2025/Yongki.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
-      },
-    ],
-    moderators: [
-      {
-        photo: "/assets/2025/Yongki.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
-      },
-    ],
-  },
-  {
-    tags: [],
-    time: "10.25 - 10.45",
-    value: `Insight Story - FMCG Corner: "The Future of FMCG: How to create brand loyalty?"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Ricky.png",
-        name: "Ricky Afrianto",
-        position: "Director and Global Marketing PT. Mayora Indah, Tbk",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "10.45 - 11.05",
-    value: `Keynote Speech: Loyalty Programs Don't Equate to Loyalty`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/2025/Shalini.png",
-        name: "Shalini Gopalan",
-        position: "Founder of LoyaltyHub",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "11.05 - 11.25",
-    value: `Insight Story by MAPClub`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Ravi.png",
-        name: "Ravi Kumar",
-        position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "11.25 - 12.00",
-    value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/2025/Linda.png",
-        name: "Linda Valentine",
-        position: "CCO Alfagift",
-      },
-      {
-        photo: "/assets/images/Meshvara.png",
-        name: "Meshvara Kanjaya",
-        position: "Former CEO of Ranch Market",
-      },
-      {
-        photo: "/assets/images/Andiny.png",
-        name: "Andiny Kismaryanti",
-        position: "Shopper Marketing PT. Paragon Technology & Innovations",
-      },
-    ],
-    moderators: [
-      {
-        photo: "/assets/2025/Yongki.png",
-        name: "Yongky Susilo",
-        position: "Retail and Consumer Strategist ",
-      },
-    ],
-  },
-  {
-    tags: [],
-    time: "12.00 - 12.05",
-    value: "Break Lunch by MC",
-    category: "agenda",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "12.05 - 13.00",
-    value: "Lunch Attendees in Voyer",
-    category: "break",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "12.05 - 13.00",
-    value: "Executive VIPs Lunch in Room 3",
-    category: "break",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "13.05 - 13.25",
-    value: `Keynote Speech: "How to Monitoring the Channel Activation and Growing the Right Channel"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Adrian.png",
-        name: "Adrian Baskoro",
-        position: "Trade Marketing Expert & Founder Routetomarket.id",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "13.25 - 13.45",
-    value: `Keynote Speech: "The importance of retaining B2B partner to boost sales"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Yopie.png",
-        name: "Yopie Rissa",
-        position: "Country Head B2B & OEM PT. Castrol Indonesia",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "13.45 - 14.05",
-    value: `Insight Story: "Empower Building Material Retailers & Distributors through the Use of Technology"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Aaron.png",
-        name: "Aaron Wijaya",
-        position: "CEO of Depo Bangunan Online Indonesia",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "14.05 - 14.25",
-    value: `Insight Story by Grab "Elevate the gifting experience with GrabGifts"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Pramita.png",
-        name: "Pramita Hadi",
-        position: "Head of GTM, Product, and Operation at Grab for Business",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "14.25 - 15.00",
-    value: `Product Showcase: "Track, Trace, and Retain"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Mardiansyah.png",
-        name: "Mardiansyah Putra",
-        position: "General Manager of Commercial Strategic Tada",
-      },
-      {
-        photo: "/assets/images/Mark.png",
-        name: "Mark Gabriel Priyono",
-        position: "CEO Prieds",
-      },
-      {
-        photo: "/assets/images/Bonifasius.png",
-        name: "Bonifasius Victoria",
-        position: "CEO Sanco Indonesia",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "15.00 - 15.15",
-    value: "Coffee Break",
-    category: "networking",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "15.15 - 15.35",
-    value: `Keynote Speech: Building Customer Loyalty by Knowing Your Customer`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/Muliadi.png",
-        name: "Muliadi Jeo",
-        position: "CTO of Enterprise Solutions - SIRCLO",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "15.35 - 16.05",
-    value: `Panel Discussion: "Customer Centricity in the Digital Age: Navigating the Landscape of Customer Retention"`,
-    category: "agenda",
-    speakers: [
-      {
-        photo: "/assets/images/additional/Ruchir.png",
-        name: "Ruchir Prasoon",
-        position: "Vice President of Product Tokopedia",
-      },
-      {
-        photo: "/assets/images/Andy.png",
-        name: "Andy Gozali",
-        position: "Country Head - RevComm Indonesia",
-      },
-      {
-        photo: "/assets/images/Laode.png",
-        name: "Laode Hartanto",
-        position: "Chief Growth Officer - Dentsu",
-      },
-    ],
-    moderators: [
-      {
-        photo: "/assets/images/Muliadi.png",
-        name: "Muliadi Jeo",
-        position: "CTO of Enterprise Solutions - SIRCLO",
-      },
-    ],
-  },
-  {
-    tags: [],
-    time: "16.05 - 16.25",
-    value: `Closing Sessions - Fireside Chat: Tada Case Study "B2B Loyalty vs B2C Loyalty, which one is more important?"`,
-    speakers: [
-      {
-        photo: "/assets/2025/profile-user.svg",
-        name: "Juan Aristya & Devicca",
-        position: "",
-      },
-    ],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "16.25 - 16.40",
-    value: "Doorprize",
-    speakers: [],
-    moderators: [],
-  },
-  {
-    tags: [],
-    time: "16.40 - 16.45",
-    value: "Closing by MC",
-    speakers: [],
-    moderators: [],
-  },
-];
+//   {
+//     tags: [],
+//     time: "08.30 - 09.30",
+//     value: "Registration - networking session - Coffee Break",
+//     category: "agenda",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "09.30 - 09.35",
+//     value: "Opening by MC",
+//     category: "agenda",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "09.35 - 09.40",
+//     value: "Opening Remarks",
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/2025/Antonius.png",
+//         name: "Antonius Taufan",
+//         position: "Founder & Managing Director Tada",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "09.40 - 10.05",
+//     value: `Keynote Speech: 🏆 Loyalty Champion: Redefining Customer Engagement in the AI Era"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/2025/Antonius.png",
+//         name: "Antonius Taufan",
+//         position: "Founder & Managing Director Tada",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "10.05 - 10.45",
+//     value: `Panel Discussion: "🚗 B2B Loyalty Reinvented: Strengthening Channel & End Customers with Smart Incentives"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/2025/Yongki.png",
+//         name: "Enjelita Jahya",
+//         position: "President Director Castrol Indonesia",
+//       },
+//       {
+//         photo: "/assets/2025/",
+//         name: "TBC",
+//         position: "",
+//       },
+//       {
+//         photo: "/assets/2025/Yongki.png",
+//         name: "Yongky Susilo",
+//         position: "Retail and Consumer Strategist ",
+//       },
+//     ],
+//     moderators: [
+//       {
+//         photo: "/assets/2025/Yongki.png",
+//         name: "Yongky Susilo",
+//         position: "Retail and Consumer Strategist ",
+//       },
+//     ],
+//   },
+//   {
+//     tags: [],
+//     time: "10.25 - 10.45",
+//     value: `Insight Story - FMCG Corner: "The Future of FMCG: How to create brand loyalty?"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Ricky.png",
+//         name: "Ricky Afrianto",
+//         position: "Director and Global Marketing PT. Mayora Indah, Tbk",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "10.45 - 11.05",
+//     value: `Keynote Speech: Loyalty Programs Don't Equate to Loyalty`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/2025/Shalini.png",
+//         name: "Shalini Gopalan",
+//         position: "Founder of LoyaltyHub",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "11.05 - 11.25",
+//     value: `Insight Story by MAPClub`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Ravi.png",
+//         name: "Ravi Kumar",
+//         position: "Director & COO PT. Mitra Adi Perkasa MAP - MAP Club",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "11.25 - 12.00",
+//     value: `Panel 1: "The Retention Revolution: Innovations in Keeping Your Customers Coming Back"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/2025/Linda.png",
+//         name: "Linda Valentine",
+//         position: "CCO Alfagift",
+//       },
+//       {
+//         photo: "/assets/images/Meshvara.png",
+//         name: "Meshvara Kanjaya",
+//         position: "Former CEO of Ranch Market",
+//       },
+//       {
+//         photo: "/assets/images/Andiny.png",
+//         name: "Andiny Kismaryanti",
+//         position: "Shopper Marketing PT. Paragon Technology & Innovations",
+//       },
+//     ],
+//     moderators: [
+//       {
+//         photo: "/assets/2025/Yongki.png",
+//         name: "Yongky Susilo",
+//         position: "Retail and Consumer Strategist ",
+//       },
+//     ],
+//   },
+//   {
+//     tags: [],
+//     time: "12.00 - 12.05",
+//     value: "Break Lunch by MC",
+//     category: "agenda",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "12.05 - 13.00",
+//     value: "Lunch Attendees in Voyer",
+//     category: "break",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "12.05 - 13.00",
+//     value: "Executive VIPs Lunch in Room 3",
+//     category: "break",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "13.05 - 13.25",
+//     value: `Keynote Speech: "How to Monitoring the Channel Activation and Growing the Right Channel"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Adrian.png",
+//         name: "Adrian Baskoro",
+//         position: "Trade Marketing Expert & Founder Routetomarket.id",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "13.25 - 13.45",
+//     value: `Keynote Speech: "The importance of retaining B2B partner to boost sales"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Yopie.png",
+//         name: "Yopie Rissa",
+//         position: "Country Head B2B & OEM PT. Castrol Indonesia",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "13.45 - 14.05",
+//     value: `Insight Story: "Empower Building Material Retailers & Distributors through the Use of Technology"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Aaron.png",
+//         name: "Aaron Wijaya",
+//         position: "CEO of Depo Bangunan Online Indonesia",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "14.05 - 14.25",
+//     value: `Insight Story by Grab "Elevate the gifting experience with GrabGifts"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Pramita.png",
+//         name: "Pramita Hadi",
+//         position: "Head of GTM, Product, and Operation at Grab for Business",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "14.25 - 15.00",
+//     value: `Product Showcase: "Track, Trace, and Retain"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Mardiansyah.png",
+//         name: "Mardiansyah Putra",
+//         position: "General Manager of Commercial Strategic Tada",
+//       },
+//       {
+//         photo: "/assets/images/Mark.png",
+//         name: "Mark Gabriel Priyono",
+//         position: "CEO Prieds",
+//       },
+//       {
+//         photo: "/assets/images/Bonifasius.png",
+//         name: "Bonifasius Victoria",
+//         position: "CEO Sanco Indonesia",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "15.00 - 15.15",
+//     value: "Coffee Break",
+//     category: "networking",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "15.15 - 15.35",
+//     value: `Keynote Speech: Building Customer Loyalty by Knowing Your Customer`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/Muliadi.png",
+//         name: "Muliadi Jeo",
+//         position: "CTO of Enterprise Solutions - SIRCLO",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "15.35 - 16.05",
+//     value: `Panel Discussion: "Customer Centricity in the Digital Age: Navigating the Landscape of Customer Retention"`,
+//     category: "agenda",
+//     speakers: [
+//       {
+//         photo: "/assets/images/additional/Ruchir.png",
+//         name: "Ruchir Prasoon",
+//         position: "Vice President of Product Tokopedia",
+//       },
+//       {
+//         photo: "/assets/images/Andy.png",
+//         name: "Andy Gozali",
+//         position: "Country Head - RevComm Indonesia",
+//       },
+//       {
+//         photo: "/assets/images/Laode.png",
+//         name: "Laode Hartanto",
+//         position: "Chief Growth Officer - Dentsu",
+//       },
+//     ],
+//     moderators: [
+//       {
+//         photo: "/assets/images/Muliadi.png",
+//         name: "Muliadi Jeo",
+//         position: "CTO of Enterprise Solutions - SIRCLO",
+//       },
+//     ],
+//   },
+//   {
+//     tags: [],
+//     time: "16.05 - 16.25",
+//     value: `Closing Sessions - Fireside Chat: Tada Case Study "B2B Loyalty vs B2C Loyalty, which one is more important?"`,
+//     speakers: [
+//       {
+//         photo: "/assets/2025/profile-user.svg",
+//         name: "Juan Aristya & Devicca",
+//         position: "",
+//       },
+//     ],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "16.25 - 16.40",
+//     value: "Doorprize",
+//     speakers: [],
+//     moderators: [],
+//   },
+//   {
+//     tags: [],
+//     time: "16.40 - 16.45",
+//     value: "Closing by MC",
+//     speakers: [],
+//     moderators: [],
+//   },
+// ];
 
 // Generate the HTML markup using the agenda data
 function generateAgendaMarkup() {
