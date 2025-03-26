@@ -266,7 +266,7 @@ const agendaData = [
   },
   {
     tags: [],
-    time: "10.05 - 10.25",
+    time: "10.05 - 10.45",
     value: `Keynote Speech: "The 2nd Indonesia Consumer Boom: Next Decade New Consumerism (Bright Outlook)"`,
     category: "agenda",
     speakers: [
@@ -275,8 +275,24 @@ const agendaData = [
         name: "Yongky Susilo",
         position: "Retail and Consumer Strategist ",
       },
+      {
+        photo: "/assets/2025/Yongki.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
+      },
+      {
+        photo: "/assets/2025/Yongki.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
+      },
     ],
-    moderators: [],
+    moderators: [
+      {
+        photo: "/assets/2025/Yongki.png",
+        name: "Yongky Susilo",
+        position: "Retail and Consumer Strategist ",
+      },
+    ],
   },
   {
     tags: [],
