@@ -101,7 +101,7 @@ endlessScroll("carousel2", -0.5);
 // speakers
 const speakers = [
   {
-    img: "/assets/2025/karin2025.png",
+    img: "/assets/2025/Nicoprudential.png",
     name: "Karin Zulkarnaen",
     position: "Chief Customer & Marketing Officer <br> Prudential Indonesia",
   },
