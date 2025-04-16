@@ -102,8 +102,8 @@ endlessScroll("carousel2", -0.5);
 const speakers = [
   {
     img: "/assets/2025/Nicoprudential.png",
-    name: "Karin Zulkarnaen",
-    position: "Chief Customer & Marketing Officer <br> Prudential Indonesia",
+    name: "Nico Daniel Sukur",
+    position: "Head of High Net Worth & Business Development Strategy Office <br> Prudential Indonesia",
   },
   {
     img: "/assets/2025/Yongkysusilo.png",
