@@ -131,16 +131,16 @@ const speakers = [
     name: "Antonius Taufan",
     position: "Founder & Managing Director<br><br>Tada",
   },
-  // {
-  //   img: "/assets/2025/Linda.png",
-  //   name: "Linda Valentin",
-  //   position: "Chief Commercial Officer - ALFAGIFT",
-  // },
-  // {
-  //   img: "/assets/2025/Yopie.png",
-  //   name: "Ir. Yopie Rissa, M.M., MBA",
-  //   position: "Country Head B2B & OEM, BP Castrol",
-  // },
+  {
+    img: "/assets/2025/vonytjiu",
+    name: "Vony Tjiu",
+    position: "Country Manager <br><br> Red Hat Indonesia",
+  },
+  {
+    img: "/assets/2025/Yopie.png",
+    name: "Alexander Lukman",
+    position: "Head of Growth Industry<br><br>Amazon Web Services Indonesia",
+  },
   // {
   //   img: "/assets/2025/Shalini.png",
   //   name: "Shalini Gopalan",
