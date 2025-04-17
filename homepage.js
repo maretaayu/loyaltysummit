@@ -132,12 +132,12 @@ const speakers = [
     position: "Founder & Managing Director<br><br>Tada",
   },
   {
-    img: "/assets/2025/vonytjiu",
+    img: "/assets/2025/vonytjiu.png",
     name: "Vony Tjiu",
     position: "Country Manager <br><br> Red Hat Indonesia",
   },
   {
-    img: "/assets/2025/Yopie.png",
+    img: "/assets/2025/AlexanderLukman.png",
     name: "Alexander Lukman",
     position: "Head of Growth Industry<br><br>Amazon Web Services Indonesia",
   },
