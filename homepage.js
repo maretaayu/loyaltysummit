@@ -101,11 +101,6 @@ endlessScroll("carousel2", -0.5);
 // speakers
 const speakers = [
   {
-    img: "/assets/2025/Nicoprudential.png",
-    name: "Nico Daniel Sukur",
-    position: "Head of High Net Worth & Business Development Strategy Office <br> Prudential Indonesia",
-  },
-  {
     img: "/assets/2025/Yongkysusilo.png",
     name: "Yongky Susilo",
     position: "Retail and Consumer Strategist <br><br>",
@@ -127,19 +122,24 @@ const speakers = [
       "Senior VP Micro Development & Agent Banking Group <br> PT Bank Mandiri",
   },
   {
-    img: "/assets/2025/AT2025.png",
-    name: "Antonius Taufan",
-    position: "Founder & Managing Director<br><br>Tada",
-  },
-  {
     img: "/assets/2025/vonytjiu.png",
     name: "Vony Tjiu",
     position: "Country Manager <br><br> Red Hat Indonesia",
   },
   {
+    img: "/assets/2025/Nicoprudential.png",
+    name: "Nico Daniel Sukur",
+    position: "Head of High Net Worth & Business Development Strategy Office <br> Prudential Indonesia",
+  },
+  {
     img: "/assets/2025/AlexanderLukman.png",
     name: "Alexander Lukman",
     position: "Head of Growth Industry<br><br>Amazon Web Services Indonesia",
+  },
+  {
+    img: "/assets/2025/AT2025.png",
+    name: "Antonius Taufan",
+    position: "Founder & Managing Director<br><br>Tada",
   },
   // {
   //   img: "/assets/2025/Shalini.png",
