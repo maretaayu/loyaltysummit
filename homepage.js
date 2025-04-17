@@ -124,7 +124,7 @@ const speakers = [
   {
     img: "/assets/2025/vonytjiu.png",
     name: "Vony Tjiu",
-    position: "Country Manager <br><br> Red Hat Indonesia",
+    position: "Country Manager <br><br><br>Red Hat Indonesia",
   },
   {
     img: "/assets/2025/Nicoprudential.png",
