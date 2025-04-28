@@ -1,0 +1,49 @@
+{
+    "speakers": [
+        {
+            "name": "Yongki Susilo",
+            "title": "Retail and Consumer Strategist",
+            "image": "assets/images/speakers/speaker-1.png"
+        },
+        {
+            "name": "Enjelita Jahja",
+            "title": "President Director <br/>Castrol Indonesia",
+            "image": "assets/images/speakers/speaker-2.png"
+        },
+        {
+            "name": "Adrian Baskoro",
+            "title": "Founder<br/>Routetomarket.id",
+            "image": "assets/images/speakers/speaker-3.png"
+        },
+        {
+            "name": "Muhamad Gumilang",
+            "title": "Senior VP Micro Development<br/> & Agent Banking Group<br/> PT Bank Mandiri",
+            "image": "assets/images/speakers/speaker-4.png"
+        },
+        {
+            "name": "Vony Tjiu",
+            "title": "Country Manager<br/>Red Hat Indonesia",
+            "image": "assets/images/speakers/speaker-5.png"
+        },
+        {
+            "name": "Nico Daniel Sukur",
+            "title": "Head of High Net Worth &<br/> Business Development Strategy <br/>Office, Prudential Indonesia",
+            "image": "assets/images/speakers/speaker-6.png"
+        },
+        {
+            "name": "Alexander Lukman",
+            "title": "Head of Growth Industry<br/> Amazon Web Services <br/>Indonesia",
+            "image": "assets/images/speakers/speaker-7.png"
+        },
+        {
+            "name": "Antonius Taufan",
+            "title": "Founder & Managing Director <br/>Tada",
+            "image": "assets/images/speakers/speaker-8.png"
+        },
+        {
+            "name": "Krishnan Menon",
+            "title": "Country Managing Director <br/>Pluxee Indonesia",
+            "image": "assets/images/speakers/speaker-9-1.png"
+        }
+    ]
+}

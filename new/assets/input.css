@@ -1,0 +1,69 @@
+
+@import 'animate.css/animate.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  }
+}
+
+
+:root {
+    --blue-one : #061130;
+    --blue-two : #100D23;
+    --blue-three : #030F31;
+    --yellow: rgba(236, 212, 48, 1);
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .slide-up {
+    animation: slideUp 0.5s forwards;
+  }
+  
+  .slide-down {
+    animation: slideDown 0.5s forwards;
+  }
+  .bg-yellow-gradient {
+    background: linear-gradient(180deg, #ECD149 0%, #FFF8D6 100%);
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-10px);
+      opacity: 0;
+    }
+  }
+  
